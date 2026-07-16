@@ -1,0 +1,784 @@
+id,name,action,split_column,span,other_candidates,reviewed
+exsg-kpya,Denied TW and Wholesale Market Companies,split,application_status_date,1996-2026,application_status_date[1996-2026],y
+2mby-ccnw,Civilian Complaint Review Board: Complaints Against Police Officers,split,incident_date,1996-2026,incident_date[1996-2026]; ccrb_received_date[2000-2026]; close_date[2000-2026],y
+jknp-skuy,VZV Speed Humps,split,date_insta,1996-2026,date_insta[1996-2026],y
+kvfd-bves,Parking Violations Issued - Fiscal Year 2021,skip,issue_date,2000-2030,issue_date[2000-2030],y
+ipkp-snf6,BUILDING_HISTORIC,skip,demolition_year,1995-2025,demolition_year[1995-2025]; last_edited_date[2004-2026],y
+5mdy-gux8,New York City Personal Income Tax Collections By Component,split,fisc_yr,2001-2030,fisc_yr[2001-2030],y
+dpec-ucu7,TLC New Driver Application Status,split,app_date,1997-2026,app_date[1997-2026],y
+w76s-c5u4,Traffic Signal and All-Way Stop Study Requests,split,daterequested,1996-2025,daterequested[1996-2025],y
+68k5-hdzw,Recoupment for Damaged City-owned Property,split,accidentdate,1997-2026,accidentdate[1997-2026]; datereceived[2005-2026]; closedate[2005-2026],y
+n7gv-k5yt,Capital Projects,split,date_reported_as_of,1995-2023,date_reported_as_of[2013-2023]; design_start[1995-2023]; forecast_completion[2014-2036],y
+n5xc-7jfa,NYC Fire Department Building Vacate List,split,vac_date,1998-2026,lst_compl_insp_date[2011-2025]; status_change_date[1998-2026],y
+n6c5-95xh,LinkNYC Kiosk Status,skip,install_date,1997-2025,install_date[1997-2025]; wifi_status_date[2023-2026]; tablet_status_date[2023-2026]; phone_status_date[2023-2026],y
+53m8-jdtg,Parks Concessions,split,permitorlicensestartdate,1998-2026,permitorlicensestartdate[1998-2026]; contractsigndate[1998-2025],y
+akzx-fghb,Social Distancing: Citywide Ambassador Data,split,encounter_datetime,2002-2030,encounter_datetime[2002-2030],y
+skyk-mpzq,Historic Districts,skip,desdate,1996-2024,caldate[1996-2024],y
+rjkp-yttg,Campaign Contributions,split,date,1997-2025,date[1997-2025],y
+ndq3-kuef,DOB Disciplinary Actions,split,year,1998-2026,year[1998-2026],y
+6ctv-n46c,City Council Legislation: Bills and Local Laws,split,intro_date,1998-2025,intro_date[1998-2025]; agenda_date[1998-2025]; passed_date[1998-2025],y
+5w2t-dbac,Local Law 76 of 2020 - COVID-19 Contracts,split,original_start_date,1995-2022,original_start_date[1995-2022]; start_date[1995-2022]; registration_date[1997-2022]; last_modified_date[2015-2022],y
+3z69-v9cd,NYC Climate Budgeting Report: Forecast of Emissions and PM 2.5 Reductions from City Actions,split,forecast_year,2023-2050,published_date[2024-2026]; forecast_year[2023-2050],y
+5uac-w243,NYPD Complaint Data Current (Year To Date),split,cmplnt_fr_dt,1999-2026,cmplnt_to_dt[1999-2026]; rpt_dt[2026-2026],y
+ci93-uc8s,SBS Certified Business List,skip,date_of_establishment,1999-2026,cert_renewal_date[2025-2031]; description_of_work_job_exp_1[2012-2025]; name_of_client_job_exp_2[2100-2100]; description_of_work_job_exp_2[2013-2025]; date_of_work_job_exp_3[1999-2026],y
+at9c-pdf7,"DOHMH and DEP Waterborne Disease Risk Assessment Program Annual Report Data: Percentage of interviewed cryptosporidiosis case-patients by type of tap water exposure before disease onset, by Immune Status",skip,year,1995-2022,year[1995-2022],y
+n3mp-t5uj,NYPD Officer Profile - Training,split,date,1999-2026,date[1999-2026],y
+ws4r-n9v4,"DOHMH and DEP Waterborne Disease Risk Assessment Program Annual Report Data: Percentage of interviewed cryptosporidiosis case-patients reporting selected potential risk exposures before disease onset, by Immune Status",skip,year,1995-2022,year[1995-2022],y
+w5ea-ydu3,DOF: Refund List - Real Property Tax,split,issue_date,1999-2026,issue_date[2019-2025]; refund_year[1999-2026],y
+yg3y-7juh,Parks Inspection Program – Inspections,split,inspection_year,1999-2026,date[1999-2026]; inspection_year[1999-2026]; inspaddeddate[2008-2026],y
+umve-k9rk,NYC Climate Budgeting Report: Emission Factors,split,published_date,2023-2050,published_date[2024-2026]; forecast_year[2023-2050],y
+emrz-5p35,Invoices for Open Market Order (OMO) Charges,split,invoicedate,2000-2026,datetransferdof[2000-2026],y
+d7pv-3qwq,New York City Settlement Payments,split,pub_dt,2001-2027,tx_yr[2001-2027],y
+2fir-qns4,Civilian Complaint Review Board: Police Officers,split,last_reported_active_date,2000-2026,last_reported_active_date[2000-2026],y
+upii-frjc,BIC Issued Violations,split,date_of_violation,2000-2026,date_of_violation[2000-2026]; date_violation_issued[2002-2026]; settlement_date[2014-2026],y
+ic3t-wcy2,DOB Job Application Filings,split,latest_action_date,2000-2026,latest_action_date[2000-2026]; dobrundate[2018-2026]; signoff_date[2000-2026],y
+br6q-ssj3,Housing Database Project Level Files,split,datelstupd,2000-2026,datefiled[2000-2026]; datepermit[2000-2026]; datelstupd[2000-2026],y
+2xh6-psuq,Capital Project Schedules and Budgets,split,project_phase_actual_start_date,2003-2029,project_phase_actual_start_date[2003-2026]; project_phase_planned_end_date[2003-2029]; project_phase_actual_end_date[2003-2026],y
+ga3c-v25a,Trust Fund Invasions,split,date_opened,1997-2023,date_opened[1997-2023]; date_completed[2013-2023],y
+59kj-x8nc,Housing Litigations,split,caseopendate,2004-2030,caseopendate[2004-2030],y
+weh8-3ujf,Synthetic Turf Fields,split,commission_date,2000-2026,commission_date[2000-2026],y
+4hcv-tc5r,Capital Project Tracker,split,designstart,2001-2026,designstart[2001-2026]; designprojectedcompletion[2002-2027]; designactualcompletion[2006-2026]; procurementstart[2006-2026]; procurementprojectedcompletion[2007-2027]; procurementactualcompletion[2006-2026]; constructionstart[2008-2026]; constructionprojectedcom[2009-2029]; constructionactualcompletion[2013-2026],y
+y23c-72fa,DCM_StreetNameChanges_Points,split,intro_year,1998-2023,intro_year[1998-2023],y
+fkec-mjr6,"DOHMH Cryptosporidiosis by Race/Ethnicity, Age Group, and Borough of Residence",split,year,2000-2025,year[2000-2025],y
+m48u-yjt8,City Council Meetings (1999 to 2024),split,meeting_date,1999-2024,meeting_date[1999-2024]; modified_date[2015-2025],y
+dg92-zbpx,City Record Online,split,start_date,2000-2025,start_date[2003-2025]; end_date[2000-2025],y
+9jkp-n57r,Capital Projects Database (CPDB) - Projects (Polygons),split,mindate,2010-2035,mindate[2010-2035]; maxdate[2025-2035],y
+fi59-268w,Capital Projects Database (CPDB) - Projects,split,mindate,2010-2035,mindate[2010-2035]; maxdate[2025-2039],y
+qxzj-vkn2,Campaign Expenditures,split,election,1998-2023,date[1998-2023],y
+869v-vr48,Parking Violations Issued - Fiscal Year 2023,skip,issue_date,2000-2025,issue_date[2000-2025],y
+4fvw-nn9c,Work Order Management Module,split,workorder_added,1999-2024,workorder_added[1999-2024]; time_stamp[2015-2026],y
+jstn-jaut,Policy and Procedure Recommendations (PPR) Portal,split,date_issued,2001-2026,date_issued[2014-2026]; date_implemented[2001-2026],y
+h2ic-zdws,Capital Projects Database (CPDB) - Projects (Points),split,mindate,2010-2035,mindate[2010-2035]; maxdate[2025-2035],y
+3bkg-usya,Local Law 159 of 2019: Vacate Relocation Charges By Building,split,year,2002-2026,year[2002-2026],y
+p4u2-3jgx,Sidewalk Dismissal Inspection Tracking,split,request_date,2010-2034,assigned_date[2010-2034],y
+j3uq-sh95,New York City Tax Revenue Actuals,split,pub_dt,2001-2025,fisc_yr[2001-2025],y
+a8cg-cxa6,Agency Business Parking Permit (ABPP),split,appl_date,2000-2024,appl_date[2000-2024],y
+6v4b-5gp4,Public Programs Division Special Events,split,date_and_time,2002-2026,date_and_time[2002-2026],y
+xjur-zbxw,Home Care Caseload (Historical),split,year,1995-2019,year[1995-2019],y
+8wbx-tsch,For Hire Vehicles (FHV) - Active,skip,vehicle_year,2004-2027,vehicle_year[2004-2027],y
+rn6p-xvjd,Inspections of Municipal Solid Waste Disposal Locations (No Longer Maintained),split,inspection_date,2000-2023,inspection_date[2000-2023],y
+8u85-k342,Capital Commitment Actuals,split,pub_dt,2002-2025,fisc_yr[2002-2025],y
+qbvv-9nzz,Revenue Actuals,split,publication_date,2002-2025,fiscal_year[2002-2025],y
+df32-vzax,DEP Green Infrastructure (Point Layer),skip,constructed_date,2006-2029,constructed_date[2006-2029],y
+ue2f-z6i6,Annual On-Street Parking Permit (AOSPP),split,appl_date,2001-2024,issue_date[2001-2024]; appl_date[2001-2024],y
+jkdk-6p97,Highway Sign Installations,split,comp_date,2001-2024,comp_date[2001-2024],y
+qtrj-g3nm,Cash Assistance Recipients in NYC (Historical),split,year,1996-2019,year[1996-2019],y
+yhuu-4pt3,Street Hail Livery (SHL) Permits,skip,vehicle_year,2004-2026,license_type[2022-2028]; certification_date[2013-2026]; hack_up_date[2011-2026]; vehicle_year[2004-2026],y
+8ek7-jxw6,EquityNYC Data (Previously Social Indicator Report Data),split,period,2000-2022,period[2000-2022],y
+cmjf-yawu,School Zones 2024-2025 (Elementary School),split,creat_date,2001-2023,creat_date[2001-2023],y
+pkmi-4kfn,2020 Green Taxi Trip Data,skip,lpep_pickup_datetime,2019-2041,lpep_pickup_datetime[2019-2041]; lpep_dropoff_datetime[2019-2041],y
+t26j-jbq7,School Zones 2024-2025 (Middle School),split,creat_date,2001-2023,creat_date[2001-2023],y
+uaj7-9szf,"NYC Independent Budget Office (IBO) Full Time Positions in city government, by fiscal year",skip,fy_2008,2030-2052,fy_2008[2030-2052]; fy_1996[2155-2155]; fy_1994[2280-2280]; fy_1988[2247-2247],y
+4yue-vjfc,Bridge Ratings,split,inspection_date,2002-2024,inspection_date[2002-2024],y
+j6v2-6uxq,Sidewalk Management Database - All Tree Damage (ATD),skip,atdissuedate,2003-2025,atdissuedate[2003-2025],y
+scjx-j6np,DOF: Property Charges Balance,split,extractdt,2004-2026,due_date[2004-2026]; post_thru[2020-2026]; dt_grace[2004-2026]; extractdt[2020-2025],y
+qj2z-ibhs,NYC Open Data Release Tracker,split,latest_plan_date,2013-2035,original_plan_date[2013-2035]; latest_plan_date[2013-2035]; release_date[2012-2026],y
+k462-uqyk,NYC Open Data Plan: Future Releases,split,cy,2013-2035,planned_release_date[2013-2035],y
+kyvb-rbwd,Encroachments and Defacements,split,initialinspectiondate,2003-2025,initialinspectiondate[2003-2025]; closeddate[2003-2025],y
+gc8d-bnmn,Parking Permit for People with Disabilities (PPPD) - City,split,issue_date,2004-2025,issue_date[2004-2025],y
+augs-s4dd,Mayor's Office to End Domestic and Gender-Based Violence (ENDGBV) Annual Fact Sheet,split,year,2002-2023,year[2002-2023],y
+b4mf-rg6h,Commissioner's Correspondence,split,createddate,2002-2023,createddate[2002-2023]; closeddate[2011-2023],y
+c3kh-heyp,Street Travel Permit,split,issuedate,2004-2025,expirationdate[2005-2025]; issuedate[2004-2025]; permitprintdate[2004-2025]; effectivedate[2004-2025],y
+tbgj-tdd6,Mobile Telecommunications Franchise Pole Reservation Locations,split,reservation_date,2005-2026,reservation_date[2005-2026],y
+wye7-nyek,Interagency Coordination and Construction Permits Data (MOSYS),split,project_received_date,2001-2021,project_received_date[2003-2021]; construction_kickoff_op[2010-2021]; expected_construction_end_date_op[2013-2023]; actual_construction_end_date_op[2016-2024]; construction_permit_request_received_date[2013-2021]; borough_approval_date[2001-2021]; permit_start_date[2009-2021]; latest_inspection_site_visit[2015-2021]; conditional_letter_issued[2015-2020]; created[2016-2021]; modified[2019-2021],y
+kegn-anvq,OpenRecords FOIL Requests,split,request_created_date,2006-2026,request_created_date[2006-2025]; request_submitted_date[2006-2025]; request_due_date[2006-2026]; request_close_date[2006-2026],y
+p2d7-vcsb,BIC Complaints Inquiries,skip,date_complaint_inquiry,2006-2026,date_complaint_inquiry[2006-2026],y
+5ucz-vwe8,Shootings (2006-Present),split,occur_date,2006-2026,occur_date[2006-2026],y
+3ss8-m844,Active Projects,skip,projected_construction,2012-2032,projected_construction[2012-2032],y
+pkdm-hqz6,DOB NOW: Certificate of Occupancy,split,submitted_date,2141-2161,submitted_date[2021-2026]; number_of_dwelling_units[2141-2161],y
+usc3-8zwd,Energy and Water Data Disclosure for Local Law 84 2021 (Data for Calendar Year 2020),skip,multifamily_housing_total_number_of_residential_living_units,2121-2141,energy_star_certification_last_approval_date[2008-2021]; multifamily_housing_number_of_residential_living_units_in_a_high_rise_building_10_or_more_stories[2121-2121]; multifamily_housing_total_number_of_residential_living_units[2121-2141]; property_gfa_self_reported_ft[2050-2050]; third_party_certification_date_anticipated[2011-2020]; third_party_certification_date_achieved[2011-2019]; last_modified_date_property[2018-2021]; last_modified_date_electric_meters[2018-2021]; last_modified_date_gas_meters[2018-2021]; last_modified_date_non_electric_non_gas_energy_meters[2018-2021]; last_modified_date_water_meters[2018-2021]; last_modified_date_property_use[2010-2021]; generation_date[2021-2021]; release_date[2021-2021],y
+5zhs-2jue,BUILDING,split,last_edited_date,2005-2025,last_edited_date[2005-2025],y
+ygpa-z7cr,Housing Maintenance Code Complaints and Problems,split,received_date,2005-2024,received_date[2005-2023]; complaint_status_date[2005-2024]; problem_status_date[2005-2024],y
+2xir-kwzz,Beach Water Samples,split,sample_date,2005-2024,sample_date[2005-2024],y
+d334-62hi,"NYC Quarterly Bond Update: General Obligation, DASNY, and NYW Interest Rate Exchange Agreements",split,data_as_of,2020-2039,termination_date[2020-2039]; data_as_of[2018-2025],y
+9n6h-pt9g,Speed Reducer Tracking System (SRTS),split,dateadded,2005-2024,dateadded[2005-2024],y
+rbed-zzin,Mayor's Management Report - Agency Performance Indicators,split,fiscalyear,2007-2026,createdon[2007-2026]; valuedate[2015-2025],y
+xsj8-452q,Department of Probation (DOP) Annual Adult Cases,split,year,2006-2025,year[2006-2025],y
+hcir-3275,Buildings Selected for the Alternative Enforcement Program (AEP),split,aep_start_date,2007-2026,aep_start_date[2007-2026]; discharge_date[2007-2026],y
+33db-aeds,Citywide HRA- Administered Medicaid Enrollees,split,month,2007-2026,month[2007-2026],y
+ekck-c5sb,2020 - 2021 LL Settlement Data,skip,date_on_which_doe_received_1,2002-2021,date_on_which_doe_received[2020-2021]; date_on_which_doe_referred[2020-2021]; date_on_which_the_parent[2019-2021]; date_on_which_doe_received_1[2002-2021]; date_doe_received_signed[2014-2021]; date_doe_approved_written[2020-2021]; date_doe_issued_first_payment[2020-2021],y
+4cga-5i5v,Outdoor Lap Swimming,split,day,2010-2029,day[2010-2029],y
+s6dm-mdan,Parks Inspection Program – Daily Immediate Attentions,split,datetimeentered,2007-2026,dateresolved[2007-2026]; datetimeentered[2008-2026],y
+pvkv-25ck,Historical Medallion  Vehicles - Authorized,split,last_updated_date,1997-2016,model_year[1997-2016]; last_updated_date[2013-2016],y
+5dfs-vnre,Department of Probation (DOP) Annual Juvenile Cases,split,year,2006-2025,year[2006-2025],y
+9xsq-wn7d,BUILDING_HISTORIC_P,split,last_edited_date,2004-2022,last_edited_date[2004-2022],y
+nhq5-jx6b,2018-2019 Average Class Size City - Middle & High School,skip,number_of_students,2026-2044,number_of_students[2026-2044],y
+g3xg-qtbc,Parks Closure Status Due to COVID-19: Athletic Facilities,skip,approx_date_reopened,2002-2020,editdate[2020-2020]; approx_date_reopened[2002-2020],y
+tb8q-a3ar,Order to Repair/Vacate Orders,split,vacate_effective_date,2008-2026,actual_rescind_date[2008-2026],y
+9igb-ny64,2018-2019 Class Size Report City Middle & High School Class Size Distribution,skip,number_of_students,2026-2044,number_of_students[2026-2044],y
+bibp-6ff7,DSNY Waste Characterization - Comparative Results,split,year,2005-2023,year[2005-2023],y
+pq4c-wbq4,421-a(16) Affordable New York Housing Program Completion Extension - Letters of Intent,skip,reported_commencement_date,2006-2024,form_submission_date[2024-2024]; reported_commencement_date[2006-2024]; reported_anticipated[2023-2031],y
+3r2x-bnmj,Temporary Art Program,split,year,2008-2026,year[2008-2026]; installation[2005-2026]; removal[2008-2027],y
+bvug-v3mm,Clergy Parking Permits,split,entrydate,2008-2026,entrydate[2008-2026]; dateissue[2025-2026]; dateexpiry[2026-2027],y
+n55z-cx8y,Single Use Parking Permit - On Street,split,issuedate,2007-2025,issuedate[2007-2025]; permitprintdate[2007-2025],y
+73qb-dcc3,Persons Removed from Doing Business Database,skip,date_removed,2011-2029,doing_business_start_date[2008-2020]; date_removed[2011-2029]; db_date_ended[2008-2020],y
+aaqu-mkmi,ARCHIVE - Greenstreets,split,commission,1996-2014,commission[1996-2014],y
+vck7-ujai,State of Good Repair Needs,split,publication_date,2011-2029,survey_date[2012-2024]; plan_yr[2011-2029],y
+c3uy-2p5r,Air Quality and Health Impacts,split,start_date,2005-2023,start_date[2005-2023],y
+t95h-5fsr,CommonPlace,split,created_date,2008-2026,created_date[2008-2026]; modified_date[2010-2026],y
+xrxs-qn95,Enforcement Actions Board Determinations and Penalties,split,board_meeting_date,2007-2025,board_meeting_date[2007-2025],y
+7ym2-wayt,Automated Traffic Volume Counts,split,yr,2008-2025,yr[2008-2025],y
+inkn-q76z,Centerline,split,created_date,2007-2024,created_date[2007-2024]; modified_date[2015-2025],y
+8vv7-7wx3,NYCEM Emergency Notifications,split,date_and_time,2007-2024,date_and_time[2007-2024],y
+shr7-eqdc,VZV Street Improvement Projects (SIP) Intersections,split,sip_year,2009-2026,sip_year[2009-2026]; end_date[2009-2026],y
+p937-wjvj,Rodent Inspection,split,inspection_date,2009-2026,inspection_date[2009-2026]; approved_date[2009-2026],y
+rbvx-jqnh,FCRC Annual Concession Plan Franchises,split,start_date,1998-2015,public_hearing_date_if_applicable[1998-2015]; public_meeting_date_if_applicable[1998-2015],y
+tgzg-ssan,Uptown Bicycle Counts,split,year,2007-2024,year[2007-2024],y
+bkfu-528j,NYC Permitted Event Information - Historical,split,start_date_time,2008-2025,start_date_time[2008-2025]; end_date_time[2008-2025],y
+cvys-e4b6,Highway Travel Permit - Annual,split,issuedate,2004-2021,expirationdate[2004-2021]; issuedate[2004-2020],y
+yv25-wqf9,Social Distancing and Enforcement: Parks Patrol Data,split,encounter_datetime,2012-2029,encounter_datetime[2012-2029],y
+cp6j-7bjj,Fee Charges,split,feeissueddate,2008-2025,feeissueddate[2008-2024]; doftransferdate[2008-2025],y
+833y-fsy8,ARCHIVED_NYPD Shooting Incident Data (Historic),split,occur_date,2006-2023,occur_date[2006-2023],y
+if4c-w48d,VZV Street Improvement Projects (SIP) Corridor,split,sip_year,2009-2026,sip_year[2009-2026]; end_date[2009-2026],y
+uf93-f8nk,AddressPoint,split,created_date,2008-2025,created_date[2008-2025],y
+fcau-jc6k,Infant Mortality,split,year,2007-2023,year[2007-2023],y
+fbkk-n4e3,Doing Business Contributions Summary,split,election,2009-2025,date[2009-2025],y
+eyb2-p5s8,Bus Pad Tracking,split,date_received,2010-2026,date_received[2010-2026],y
+wewp-mm3p,311 Call Center Inquiry,split,date,2010-2026,date[2010-2026],y
+x2s6-6d2j,DEP - Cryptosporidium And Giardia Data Set,split,date,2010-2026,date[2010-2026],y
+8vwk-6iz2,NYC Farmers Markets,split,year,2009-2025,year[2009-2025],y
+de3m-c5p4,Accessible Pedestrian Signal Locations,split,date_insta,2010-2026,date_insta[2010-2026],y
+7kc8-z939,FCRC Annual Concession Plan,split,registration_date_or_date_sent_to_comptroller_for_registration,1999-2015,registration_date_or_date_sent_to_comptroller_for_registration[1999-2015]; start_date[2006-2015],y
+6kbp-uz6m,Sidewalk Management Database - Violations,split,vissuedate,2009-2025,entrydate[2009-2025],y
+8h9b-rp9u,NYPD Arrests Data (Historic),split,arrest_date,2007-2023,arrest_date[2007-2023],y
+bzjf-rmtp,Current RFP,split,due_date,2010-2026,due_date[2010-2026]; data_as_of_date[2014-2026],y
+rh3d-kgz3,The Five-System Asset Allocation Chart,split,report_year,2010-2026,report_year[2010-2026],y
+qves-4x9c,Highway Travel Permit - Single Use,split,issuedate,2004-2020,effectivedate[2004-2020]; issuedate[2004-2020],y
+bhwu-wuzu,Heating Oil Consumption And Cost (2010 - Sep 2025),split,revenue_month,2009-2025,service_start_date[2009-2025]; service_end_date[2010-2025],y
+smdw-73pj,Steam Consumption And Cost (2010 – Sep 2025),split,revenue_month,2009-2025,service_start_date[2009-2025]; service_end_date[2010-2025],y
+63us-eqtq,NYC Open Data Help Desk: Public Dataset Requests,split,submission_date,2011-2026,submission_date[2011-2026]; legislated_due_date[2011-2026],y
+gzvm-na49,Contractor / Sub Contractor Change Order Report,skip,change_order_document_date,2006-2021,change_order_document_date[2006-2021]; change_order_project_stage_date[2006-2021],y
+7yay-m4ae,Expense Actuals,split,fisc_yr,2002-2017,fisc_yr[2002-2017],y
+wpnz-dpup,"Total City, Transit and Housing Police Force Headcount",split,fisc_yr,2005-2020,fisc_yr[2005-2020],y
+5ebm-myj7,DOF: Summary of Neighborhood Sales by Neighborhood Citywide by Borough,split,year,2010-2025,year[2010-2025],y
+vpeq-ndkd,9/11 Authorized Bus Parking Permit,split,issuedate,2011-2026,issuedate[2011-2026]; returndate[2011-2023],y
+4c8i-cnte,SNAP Program Access Index (PAI),skip,year,2008-2023,year[2008-2023],y
+fxgv-ba35,Swimming Beach Attendance,split,date,2010-2025,date[2010-2025],y
+7ewi-9cdf,City Marshals Revenue,split,year,2010-2025,year[2010-2025],y
+9azj-tmjp,Government Publication - Required Reports,skip,last_published_date,2011-2026,last_published_date[2011-2026],y
+nmue-7zq2,Intercity Bus Stop Permits,split,modifiedon,2014-2029,permitissuedate[2013-2026]; issuedworkstartdate[2013-2026]; issuedworkenddate[2014-2029]; createdon[2013-2026]; modifiedon[2018-2026],y
+rhe8-mgbb,Medallion  Vehicles - Authorized,skip,model_year,2012-2026,type[2025-2030]; model_year[2012-2026],y
+wq9a-qu9a,NYPD Officer Profile - Disciplinary History Summary,split,date,2010-2024,date[2010-2024],y
+b2gb-nkrq,Community Emergency Response Team (CERT),split,updated,2010-2024,updated[2010-2024],y
+djxg-kcfi,Capital Projects Database (CPDB) - Commitments,skip,plancommdate,2025-2039,plancommdate[2025-2039],y
+9jgj-bmct,DOHMH Indoor Environmental Complaints,split,date_received,2010-2024,date_received[2010-2024],y
+mpqk-skis,Community Food Connection (Quarterly Report),split,report_start_date,2011-2025,report_start_date[2011-2025]; report_end_date[2011-2025],y
+96ay-ea4r,Vehicle Classification Counts (2011 - 2025),split,date,2011-2025,date[2011-2025],y
+jr24-e7cr,Electric Consumption And Cost (2010 - Sep 2025),split,revenue_month,2009-2023,service_start_date[2009-2023]; service_end_date[2010-2024],y
+uafj-ik29,NYPD Officer Profile - Disciplinary History Charges,split,date,2010-2024,date[2010-2024],y
+keep-pkmh,Civilian Complaint Review Board: Penalties,skip,complaint_id,2013-2026,apu_closing_date[2013-2026],y
+g9ub-hrve,Active Projects - Public Buildings (Historical),skip,projected_construction_completion,2017-2030,projected_construction_completion[2017-2030],y
+66be-66yr,Water Consumption And Cost (2013 - May 2025),split,revenue_month,2011-2024,service_start_date[2011-2024]; service_end_date[2013-2024],y
+76ig-c548,311 Service Requests from 2010 to 2019,split,created_date,2012-2025,due_date[2012-2022]; resolution_action_updated_date[2012-2025],y
+4pt5-3vv4,Forestry Inspections,split,createddate,2013-2026,inspectiondate[2013-2026]; closeddate[2015-2026]; createddate[2015-2026]; updateddate[2015-2026],y
+t7p9-n9dy,911 End-to-End Data,split,date,2013-2026,date[2013-2026],y
+6yag-pnij,DSNY Other Organics Collection Tonnages,skip,fiscal_year,2012-2025,fiscal_year[2012-2025],y
+ct66-47at,Bicycle and Pedestrian Counts,split,timestamp,2012-2025,timestamp[2012-2025],y
+da9u-wz3r,Metal Content of Consumer Products Tested by the NYC Health Department,split,collection_date,2011-2024,collection_date[2011-2024],y
+6up2-gnw8,Bicycle and Pedestrian Count Sensors,split,firstdata,2012-2025,firstdata[2012-2025]; lastdata[2013-2026],y
+qjzt-ytn9,Annual City Council Report on Eligible List Utilization (Local Law 50 of 2004),split,list_est_date,2011-2024,list_est_date[2011-2024],y
+2t2c-qih9,Full-Time And Full-Time Equivalent Staffing Levels,split,fiscal_year,2016-2029,fiscal_year[2016-2029],y
+x9wy-ing4,Street Pothole Work Orders - Closed (Dataset),split,rptdate,2010-2023,rptclosed[2010-2023],y
+xrwg-eczf,SCOUT CORE,split,year,2010-2023,year[2010-2023],y
+qmh3-uvgq,DOF Scofftow Case Information,split,boot_date,2012-2025,boot_date[2012-2024]; redemption_date[2012-2025],y
+8yac-vygm,Routes,split,school_year,2013-2025,route_start_date[2013-2025],y
+fytp-pq92,SIDEWALK_LINE,split,created,2007-2019,created[2007-2019]; modified[2015-2022],y
+ns8x-qshd,WalkNYC Sign Locations,split,start_date,2013-2025,start_date[2013-2025],y
+jdn9-td9w,NYC Bridge Strike Data,split,date,2013-2025,date[2013-2025],y
+mtj6-vmci,VZV Hands-On Safety Demos,split,event_date,2014-2026,event_date[2014-2026],y
+axvu-zc97,CSC Appeals Filed in Calendar Year,split,date_filed,2014-2026,date_filed[2014-2025]; date_closed[2014-2026],y
+38pn-tyf4,CDBG-DR Reimbursements Over Time,split,pub_dt,2013-2025,yr[2013-2025],y
+xpbf-ithr,Buildings Selected for the Underlying Conditions Program,split,order_issue_date,2013-2025,order_issue_date[2013-2025],y
+ucdy-byxd,Local Law 44 - Projects,split,startdate,2013-2025,startdate[2013-2025],y
+m46f-nmju,DOE Funding Sources,split,pub_dt,2015-2027,fisc_yr[2015-2027],y
+k5us-nav4,Free Residential at-the-tap Lead and Copper Data,split,date_collected,2014-2026,date_collected[2014-2025]; date_received[2014-2026],y
+hq68-rnsi,Affordable Housing Production by Project,split,project_start_date,2014-2026,project_start_date[2014-2026]; project_completion_date[2014-2026],y
+p8e4-uwuv,Anticipated RFP,split,data_as_of_date,2014-2026,data_as_of_date[2014-2026],y
+gjm4-k24g,Self-Reported Drinking Water Tank Inspection Results,split,reporting_year,2014-2026,reporting_year[2014-2026]; inspection_date[2014-2026]; batch_date[2026-2026],y
+fcnc-95cn,VZV Senior Centers,split,event_date,2014-2026,event_date[2014-2026],y
+m6nq-qud6,2021 Yellow Taxi Trip Data,skip,tpep_pickup_datetime,2009-2021,tpep_pickup_datetime[2009-2021]; tpep_dropoff_datetime[2009-2021],y
+33c5-b922,Summary of DBP Quarterly Report,split,sample_date,2014-2026,sample_date[2014-2026]; analysis_date_tthm_g_l_a[2014-2026]; analysis_date_haa5_g_l_b[2014-2026],y
+ck4n-5h6x,Landmarks Complaints,split,date,2014-2026,date[2014-2026],y
+p32s-yqxq,Historical Driver Application Status,split,app_date,2012-2024,app_date[2012-2024]; last_updated[2016-2025],y
+53jq-yvwd,VZV Outreach Schools,split,event_date,2014-2026,event_date[2014-2026],y
+hg8x-zxpr,Affordable Housing Production by Building,split,project_start_date,2014-2026,project_start_date[2014-2026],y
+wycc-5aqt,Landmarks Violations,split,vio_date,2014-2026,vio_date[2014-2026]; wl_date[2014-2026]; nov_date[2014-2026],y
+bm4k-52h4,Motor Vehicle Collisions - Vehicles,split,crash_date,2012-2024,crash_date[2012-2024],y
+3wxk-qa8q,Compliance at-the-tap Lead and Copper Data,split,date_collected,2014-2025,date_collected[2014-2025]; received_date[2014-2025],y
+xatq-cxeq,New York City Forecasts of Selected Economic Indicators,split,pub_dt,2019-2030,ref_yr[2019-2030],y
+frre-6z6q,Low Income Housing Tax Credits Awarded by HPD: Project-Level (9% Awards),split,credit_year,2014-2025,credit_year[2014-2025]; cra_date[2013-2025]; application_year[2013-2024],y
+kmtx-45c9,Low Income Housing Tax Credits Awarded by HPD: Building-Level (9% Awards),split,application_year,2013-2024,application_year[2013-2024],y
+cj3v-xdpd,Street Construction Permits - Related Agency,split,createdon,2014-2025,createdon[2014-2025]; modifiedon[2014-2025],y
+wusu-mzmq,CUNY Community College Expenditures By Source,split,pub_dt,2016-2027,fisc_yr[2016-2027],y
+mn2p-34if,Real-World Fuel Efficiency,split,year,2008-2019,year[2008-2019],y
+aizm-q3sx,Newsrack Inspections,split,newsrackstatusdate,2015-2026,newsrackstatusdate[2015-2026]; lastinspecteddate[2015-2026],y
+yvbp-zcpt,NYC Climate Budgeting Report: New Climate Investments And Reallocations In Executive Plan,split,fiscal_year,2024-2035,published_date[2024-2026]; fiscal_year[2024-2035],y
+2v9c-2k7f,FHV Base Aggregate Report,split,year,2015-2026,year[2015-2026],y
+dxnu-p2qd,"HIV/AIDS Diagnoses by Neighborhood, Age Group, and Race/Ethnicity (Historical)",split,year,2010-2021,year[2010-2021],y
+aa5e-digs,Entry Point LCR Monitoring Results,split,sample_date,2014-2025,sample_date[2014-2025],y
+unse-x4pq,Specialized High Schools Admissions Overall Summary,split,year,2014-2025,year[2014-2025],y
+y4fw-iqfr,NYC Cooling Tower Registrations,split,date_registered,2015-2026,date_registered[2015-2026],y
+y43c-5n92,Watershed Water Quality Data,split,date,2015-2026,date[2015-2026],y
+pasr-j7fb,Emergency Response Incidents,split,creation_date,2011-2022,creation_date[2011-2022],y
+p8i7-ix2s,Low Income Housing Tax Credits Awarded by HPD: Project-Level (4% Awards),split,credit_year,2013-2024,credit_year[2013-2024]; doce_date[2013-2024]; application_year[2013-2024],y
+4d7f-74pe,City Council Discretionary Funding,split,fiscal_year,2009-2020,fiscal_year[2009-2020],y
+9cw8-7heb,.nyc Domain Registrations,split,domain_registration_date,2014-2025,domain_registration_date[2014-2025],y
+fju2-rdad,DOHMH HIV/AIDS Annual Report,split,year,2011-2022,year[2011-2022],y
+2er2-jqsx,New York City Automated External Defibrillator (AED) Inventory,split,last_updated,2015-2026,last_updated[2015-2026],y
+8k4x-9mp5,Citywide Auto Fringe Benefits,split,calendar_year,2014-2025,calendar_year[2014-2025],y
+8qgy-ka3v,NYCDEP Recreation Area Maps,skip,lastmodifi,2014-2025,lastmodifi[2014-2025],y
+ge3f-inui,Bridge Hold Location Stipulations,split,createdon,2015-2026,createdon[2015-2026]; modifiedon[2015-2026],y
+rtmc-bhid,IDNYC Applications and Cards Issued,split,month,2015-2026,month[2015-2026],y
+3vyj-dkjt,Safety Events,split,event_date,2015-2026,event_date[2015-2026],y
+tnry-kwh5,Children Under 6 yrs with Elevated Blood Lead Levels (BLL),split,time_period,2005-2016,time_period[2005-2016],y
+ykvb-493p,"HIV/AIDS Diagnoses by Neighborhood, Sex, and Race/Ethnicity (Historical)",split,year,2010-2021,year[2010-2021],y
+g63j-swsd,Distribution Sites LCR Monitoring Results,split,sample_date,2014-2025,sample_date[2014-2025],y
+9ck6-2jew,DOF Condominium Comparable Rental Income in NYC,split,report_year,2012-2023,report_year[2012-2023],y
+ud4g-9x9z,Recognized Shop Healthy Stores,split,year_awarded,2013-2024,year_awarded[2013-2024],y
+ka27-qx5k,DCLA Cultural Institutions Group Funding,split,fiscal_year_fy,2014-2025,fiscal_year_fy[2014-2025],y
+bi53-yph3,Bureau of Fire Prevention - Active Violation Orders (Historical),split,vio_date,2008-2019,vio_date[2008-2019],y
+tiyn-ajjm,DSNY Organics Collection Participation (Historic),skip,fiscal_year,2013-2024,fiscal_year[2013-2024],y
+h9ws-rfd9,Low Income Housing Tax Credits Awarded by HPD: Building-Level (4% Awards),split,application_year,2013-2024,application_year[2013-2024],y
+bdjm-n7q4,Forestry Work Orders,split,createddate,2015-2026,createddate[2015-2026],y
+74kb-55u9,Math Test Results 2013-2023,split,year,2013-2023,year[2013-2023],y
+c87b-2j3i,DOP Juvenile Rearrest Rate (Monthly Average),split,year,2016-2026,year[2016-2026],y
+qfs9-xn8t,NYCDCP Manhattan Bike Counts - On Street Weekday,split,year,2005-2015,year[2005-2015],y
+nvzu-6t9y,Preliminary Mayor's Management Report Agency Resources,split,reporting_fiscal_year,2016-2026,reporting_fiscal_year[2016-2026],y
+tyv9-j3ti,Projected Citywide Energy Cost,split,pub_dt,2020-2030,fisc_yr[2020-2030],y
+7hi3-kaps,Staff Injuries - Class A Injuries,split,reported_dt,2016-2026,reported_dt[2016-2026],y
+exez-mxv4,Projection of Cash Source and Use,split,publication_date,2020-2030,fiscal_year[2020-2030],y
+5e9h-x6ak,DHS Data Dashboard,split,report_date,2015-2025,report_date[2015-2025],y
+aabe-yfm9,City Council Committee Membership (1999 to 2025),split,start_date,2015-2025,modified_date[2015-2025],y
+5c4s-jwtq,Total SNAP Recipients (Historical),split,month,2009-2019,month[2009-2019],y
+7m8q-jgtg,DOP Juvenile Probationers Rearrested As A Percentage Of NYPD Arrest Report (Monthly Average),split,year,2016-2026,year[2016-2026],y
+y3gq-zv28,DOP Adult Case Count By Type,split,year,2016-2026,year[2016-2026],y
+k72f-2ytm,DOP Adult Case Closings By Type,split,year,2016-2026,year[2016-2026],y
+sefr-5pmx,DOP Juvenile Case Closings By Type,split,year,2016-2026,year[2016-2026],y
+swpk-hqdp,New York City Population By Neighborhood Tabulation Areas,split,year,2000-2010,year[2000-2010],y
+4qmi-txnk,Mayor's Management Report Agency Resources,split,reporting_fiscal_year,2015-2025,reporting_fiscal_year[2015-2025],y
+kkum-y97z,Agency Voter Registration Activity,split,beginning_of_reporting_period,2015-2025,beginning_of_reporting_period[2015-2025]; end_of_reporting_period[2015-2025],y
+bkwf-xfky,Drinking Water Quality Distribution Monitoring Data,split,sample_date,2015-2025,sample_date[2015-2025],y
+gakf-suji,Inmate Incidents - Slashing and Stabbing,split,reported_dt,2016-2026,reported_dt[2016-2026],y
+tavr-zknk,DSNY Salt Usage,split,date_of_report,2016-2026,date_of_report[2016-2026],y
+qu8g-sxqf,Civil Service List (Terminated),split,anniversary_date,2016-2026,anniversary_date[2016-2026]; termination_date[2016-2024],y
+n7ta-pz8k,Projected Public School Ratio,split,data_as_of,2015-2025,data_as_of[2015-2025],y
+x5tk-fa54,Expense Financial Plan - Exec,split,fiscal_year_1,2016-2026,fiscal_year_1[2016-2026],y
+wha7-46h5,DOP Juvenile Case Closings By Reason,split,year,2016-2026,year[2016-2026],y
+c49b-3kmd,DOP Juvenile Case Count By Type,split,year,2016-2026,year[2016-2026],y
+iebs-5yhr,English Language Arts (ELA) Test Results 2013-2023,split,year,2013-2023,year[2013-2023],y
+95bz-ea2t,New York City Pension Expenses,split,fisc_yr,2020-2030,fisc_yr[2020-2030],y
+39g5-gbp3,Expense Budget Funding - All Source,split,fiscal_year,2017-2027,fiscal_year[2017-2027],y
+43nn-pn8j,DOHMH New York City Restaurant Inspection Results,split,inspection_date,2016-2026,grade_date[2016-2026]; record_date[2026-2026],y
+erra-pzy8,Inmate Assault on Staff,split,reported_dt,2016-2026,reported_dt[2016-2026],y
+wavz-fkw8,DOE Building Space Usage,split,data_as_of,2015-2025,data_as_of[2015-2025],y
+r67x-e97r,NYC Open Data Help Desk: Data Questions and Reported Errors,split,date_submitted,2016-2026,date_submitted[2016-2026],y
+9fnm-j6if,Street Construction Permits - Fee,split,createdon,2013-2023,createdon[2013-2023]; modifiedon[2013-2023],y
+genf-2k76,General Issuer's Allocation Percentage Report,split,report_year,2011-2021,report_year[2011-2021],y
+gk9u-c3tv,DOP Adult Rearrest Rate (Monthly Average),split,year,2016-2026,year[2016-2026],y
+rukc-mmqu,Active Projects - Infrastructure (Historical),skip,projected_construction_completion,2019-2029,projected_construction_completion[2019-2029],y
+uh2s-ftgh,Raised Crosswalk Locations,split,date,2016-2026,date[2016-2026],y
+mfmf-gtvc,NYCDCP Manhattan Bike Counts - Off Street,split,year,2005-2015,year[2005-2015],y
+tqtj-sjs8,Street Construction Permits (2022 - Present),split,permitissuedate,2015-2025,permitissuedate[2015-2025]; createdon[2015-2025]; modifiedon[2022-2026],y
+kkwv-djnk,DOP Adult Investigations Ordered,split,year,2016-2026,year[2016-2026],y
+y3ea-en4q,Manhattan Community Award Program (MCAP) (2007-2017),split,fy,2007-2017,fy[2007-2017],y
+tm6d-hbzd,Incidents Responded to by Fire Companies,split,incident_date_time,2013-2023,incident_date_time[2013-2023]; arrival_date_time[2013-2023]; last_unit_cleared_date_time[2013-2023],y
+u6p4-fsey,DOP Adult Case Closings By Reason,split,year,2016-2026,year[2016-2026],y
+vk9f-gvzq,DOP Juvenile Investigations Assigned,split,year,2016-2026,year[2016-2026],y
+3qty-g4aq,Youth Behavior Risk Survey (High School),split,year,2011-2021,year[2011-2021],y
+sm2x-35i7,VZV Turn Traffic Calming,split,completion,2016-2026,completion[2016-2026],y
+gxhb-59kq,Temporary Parking Permit for People with Disabilities - On Street,split,effectivedate,2016-2026,permitexpiredate[2016-2026]; effectivedate[2016-2026],y
+ayx3-dixq,Pedicab Registration Plate Lottery Applications,split,application_submission_date,2012-2022,application_submission_date[2012-2022],y
+arhf-esqb,DOP Adult Probationers Rearrested As A Percentage Of NYPD Arrest Report (Monthly Average),split,year,2016-2026,year[2016-2026],y
+2z24-2htf,Office of Labor Policy & Standards Workplace Inquiries (Historical),split,intake_date,2014-2024,intake_date[2014-2024],y
+m79g-k9r4,Mandatory Inclusionary Housing,split,date_adopte,2016-2026,date_adopte[2016-2026],y
+c292-vzrn,Office of Labor Policy & Standards Enforcement Matters (Historical),split,opened_on,2014-2024,opened_on[2014-2024]; completed_on[2014-2023],y
+c99a-c5ux,NYC Climate Budgeting Report: Climate Alignment Assessment and Capital Climate Investments,split,published_date,2025-2035,published_date[2024-2026]; first_fiscal_year[2025-2035],y
+3m3d-zzwn,Language Access Secret Shopper (LASS) Ratings,split,date_visited,2014-2024,date_visited[2014-2024],y
+hcv3-zacv,Street Construction Permits - Cranes,split,createdon,2014-2024,createdon[2014-2024]; modifiedon[2014-2024],y
+8ujr-b4gc,Veterans Services Report,split,calendar_year,2015-2025,calendar_year[2015-2025],y
+itd7-gx3g,Risk Based Inspections (RBIS),split,insp_inspect_dt,2014-2023,insp_inspect_dt[2014-2023],y
+myei-c3fa,DOF: Cooperative Comparable Rental Income (Citywide),split,report_year,2012-2021,report_year[2012-2021],y
+gshi-yqza,Transportable Classroom Units- Buildings & Schools,split,date_as_of,2015-2024,date_as_of[2015-2024],y
+sqmu-2ixd,Expense Financial Plan - Qtr1,split,fiscal_year_1,2017-2026,fiscal_year_1[2017-2026],y
+ipu4-2q9a,DOB Permit Issuance,split,issuance_date,2017-2026,dobrundate[2017-2026],y
+r465-fr2q,Parks Syringe Disposal Kiosks,split,installationdate,2016-2025,installationdate[2016-2025]; status_change_date[2016-2025],y
+w462-digi,NYC Open Data Plan: FOIL Metrics,split,report_year,2016-2025,year[2016-2025]; total_number_of_foil_responses[2137-2158]; total_number_of_foil_responses_that_includes_a_public_data_set_not_yet_published_on_the_open_data_portal[2161-2161],y
+wapz-jfhq,DCWP Language Line Interpretation Services,split,date_and_time_pst,2016-2025,date[2016-2025],y
+kfp4-dz4h,DOB NOW: Build Elevator Permit Applications,split,filing_date,2017-2026,filing_date[2017-2026]; plan_examiner_assigned_date[2017-2026]; first_objection_date[2017-2026]; last_objection_date[2017-2026]; resubmission_date[2017-2026]; permit_entire_date[2017-2026],y
+kwte-dppd,Daily Tasks Park Cleaning Records,split,date_worked,2015-2024,date_worked[2015-2024]; start_time[2015-2024]; end_time[2015-2024],y
+uczf-rk3c,Bicycle Counts (Historical),split,date,2015-2024,date[2015-2024],y
+2cmn-uidm,Capital Commitment Plan,split,first_fiscal_year,2016-2025,yr1_fy[2016-2025],y
+4tys-3tzj,Energy and Water Data Disclosure for Local Law 84 2019 (Data for Calendar Year 2018),skip,water_current_date,2010-2019,data_quality_checker_date[2018-2019]; water_current_date[2010-2019]; last_modified_date_property[2018-2019]; last_modified_date_electric[2018-2019]; last_modified_date_gas_meters[2018-2019]; last_modified_date_non[2018-2019]; last_modified_date_water[2018-2019]; generation_date[2019-2019]; release_date[2019-2019],y
+w65z-zif5,New York City Deferred Compensation Plan  - Summary of Administrative Revenues and Expenses,split,year,2014-2023,year[2014-2023],y
+w9ak-ipjd,DOB NOW: Build – Job Application Filings,split,filing_date,2017-2026,filing_date[2017-2026]; current_status_date[2020-2026]; first_permit_date[2017-2026]; approved_date[2017-2026]; signoff_date[2018-2026],y
+2jrp-puwz,Mayor's Management Report Spending and Budget,split,reporting_fiscal_year,2016-2025,reporting_fiscal_year[2016-2025]; modified_budget_current_fy[2223-2223],y
+dpb9-ubdh,CSCL_PlowNYC,split,created_da,2007-2016,created_da[2007-2016]; modified_d[2015-2016],y
+kcfe-uypz,Tree Contract Work Details,split,transaction_date,2015-2024,transaction_date[2015-2024],y
+985h-mtct,FWC and AF Monthly Eligibility Rate,split,date,2017-2026,date[2017-2026],y
+wcm8-aq5w,Energy and Water Data Disclosure for Local Law 84 2020 (Data for Calendar Year 2019),skip,last_modified_date_property,2012-2021,data_quality_checker_date[2019-2021]; last_modified_date_property[2012-2021]; last_modified_date_electric[2018-2021]; last_modified_date_gas_meters[2018-2021]; last_modified_date_non[2018-2021]; last_modified_date_water[2018-2021]; generation_date[2020-2021]; release_date[2020-2021],y
+evjd-dqpz,NYCHA Development Data Book,skip,rad_transferred_date,2016-2025,rad_transferred_date[2016-2025],y
+hb7y-b986,Cash Assistance Engagement Report,split,edit,2016-2025,month[2016-2025],y
+vq35-j9qm,Asbestos Control Program (ACP7),split,start_date,2017-2026,start_date[2017-2026]; end_date[2018-2027],y
+w4ne-9ea9,Preliminary Mayor's Management Report Spending and Budget,split,reporting_fiscal_year,2017-2026,reporting_fiscal_year[2017-2026],y
+4t62-jm4m,Energy and Water Data Disclosure for Local Law 84 2018 (Data for Calendar Year 2017),skip,water_current_date,2010-2019,generation_date[2018-2019]; energy_star_certification_1[2010-2018]; water_current_date[2010-2019]; last_modified_date_property[2017-2019]; last_modified_date_electric[2018-2019]; last_modified_date_gas_meters[2018-2019]; last_modified_date_non[2018-2019],y
+kfgh-h6re,Mandatory Inspections by Fire Companies,split,insp_inspect_dt_fk,2013-2022,insp_inspect_dt_fk[2013-2022],y
+y3hw-z6bm,OATH Trials Division Case Status,split,report_issued,2017-2026,opened[2013-2026]; record_closed[2017-2026]; report_issued[2017-2026],y
+e4p3-6ecr,Expense Financial Plan - Adpt\Prel,split,fiscal_year_1,2016-2025,yr1_fy[2016-2025],y
+uwim-9338,Parks Supervisor Inspections - Inspection Results,split,inspection_date,2015-2024,inspection_date[2015-2024],y
+ur7y-ziyb,Associated Address by Borough and Community District,split,report_date,2017-2026,report_date[2017-2026],y
+vf4p-p8ui,Revenue Budget & Financial Plan--Qtr1,split,fiscal_year,2017-2026,fiscal_year[2017-2026]; yr1_fy[2017-2026],y
+ugzk-a6x4,Revenue Budget & Financial Plan -- Exec\Adpt\Prel,split,fiscal_year,2016-2025,fiscal_year[2017-2025]; yr1_fy[2016-2025],y
+btm5-ppia,Traffic Volume Counts (Historical),split,date,2012-2021,date[2012-2021],y
+k548-32d3,Inmate Incidents - Inmate Fights,split,incident_dt,2016-2025,incident_dt[2016-2025],y
+wr2n-ag8h,ENDGBV: Family Justice Centers: Supporting Our Foreign Born Clients Report,skip,visit_year,2010-2019,visit_year[2010-2019],y
+nsk4-4pvs,New York City Employment Forecast,split,reference_year,2018-2027,ref_yr[2018-2027],y
+vx8i-nprf,Civil Service List (Active),split,anniversary_date,2021-2030,anniversary_date[2021-2030],y
+f64t-5yiv,Inmate Deaths,split,reported_dt,2015-2024,reported_dt[2015-2024],y
+gqk4-hny9,SNAP Center Wait Time,split,report_date,2017-2026,report_date[2017-2026],y
+rsgh-akpg,DOHMH Dog Bite Data,skip,dateofbite,2015-2024,dateofbite[2015-2024],y
+t8xi-d5wb,Summary of Syringe Data in NYC Parks,split,year,2017-2026,collected_date[2017-2026]; year[2017-2026]; created_date[2017-2026],y
+rmhc-afj9,DSNY - PlowNYC Data,split,snapshot,2016-2025,snapshot[2016-2025],y
+fq4m-vjs9,Benefits Access Center Wait Times,split,report_date,2017-2026,report_date[2017-2026],y
+tdej-swyi,NYC Open Data Plan: Removals,split,report_year,2016-2025,date[2016-2025],y
+hyur-qpyf,Ready NY Events,split,event_date,2016-2025,date[2016-2025],y
+b9km-gdpy,City Council Constituent Services (2015 to 2025),split,opendate,2015-2024,opendate[2015-2024]; closedate[2015-2024],y
+fm4z-qud6,DEP Green Infrastructure (Regulated Projects),skip,constructe,2016-2025,constructe[2016-2025],y
+as9z-kwsh,Street Network Changes,split,completion_date,2015-2024,completion_date[2015-2024],y
+ht4t-wzcm,Taxi Improvement Fund (TIF) Medallion Payments,split,payment_date,2016-2025,payment_date[2016-2025],y
+6z8x-wfk4,Evictions,split,executed_date,2017-2026,executed_date[2017-2026],y
+w7fs-fd9i,2018 Green Taxi Trip Data,skip,lpep_pickup_datetime,2010-2018,lpep_pickup_datetime[2010-2018]; lpep_dropoff_datetime[2010-2018],y
+mwzb-yiwb,Expense Budget,split,fiscal_year,2017-2025,fiscal_year[2017-2025],y
+6eng-46dm,Staten Island Ferry Ridership Counts,split,date,2019-2027,date[2019-2027],y
+9f5n-qdib,Evaluation and Monitoring Reports for Program Sites,split,evaluation_date,2017-2025,evaluation_date[2017-2025],y
+w2pb-icbu,NYC Citywide Annualized Calendar Sales Update,split,sale_date,2016-2024,sale_date[2016-2024],y
+wd9h-xwk5,Youth Engagement Summary,split,report_date,2018-2026,report_date[2018-2026],y
+tfrc-rjtr,Public Design Commission Monthly Design Review,split,date,2018-2026,date[2018-2026],y
+jp5w-5njc,Survey Findings from the NYC Healthy Relationship Training Academy - TechnoLOVE Workshop,split,date,2010-2018,date[2010-2018],y
+d33y-i2m7,Financial Plan Headcount Baseline & Initiatives By Funding,split,fiscal_year,2018-2026,fiscal_year[2018-2026],y
+ye3c-m4ga,Civil List,split,calendar_year,2014-2022,calendar_year[2014-2022],y
+dm9a-ab7w,DOB NOW: Electrical Permit Applications,split,filing_date,2017-2025,filing_date[2017-2024]; permit_issued_date[2017-2024]; job_start_date[2017-2025],y
+fzh2-sxib,Children Tested for Lead by Age 3,split,time_period,2008-2016,time_period[2008-2016],y
+e64w-ctmw,Financial Plan Baseline & Initiatives By Funding,split,fiscal_year,2018-2026,fiscal_year[2018-2026],y
+as69-ew8f,Over Dimensional Vehicle Permits (ODVP),split,issuedate,2016-2024,applicationdate[2016-2024]; issuedate[2016-2024]; permitdate[2016-2024]; permitdateto[2016-2024]; permitallowedfrom[2016-2024]; permitallowedto[2016-2024],y
+zkky-n5j3,Current Reservoir Levels,split,point_time,2017-2025,neversink_date[2017-2025],y
+wf8t-6cqt,Policymakers List,split,calendar_year,2018-2026,calendar_year[2018-2026],y
+jagj-gttd,Pedestrian Ramp Complaints,split,complaint_date,2018-2026,complaint_date[2018-2026]; temp_repair_date[2018-2026],y
+46m8-77gv,Capital Budget,split,first_fiscal_year,2019-2027,yr1_fy[2019-2027],y
+wjvv-6yxq,HASA Facts,split,datadate,2018-2026,datadate[2018-2026]; enddate[2018-2026],y
+gkd7-3vk7,Enrollment Capacity And Utilization Reports,split,data_as_of,2015-2023,data_as_of[2015-2023],y
+bd8j-m46a,Debt Affordability Statement Schedules,split,fiscal_year,2019-2027,fisc_yr[2019-2027],y
+fypi-ruxh,NYC Office of The Comptroller: Board of Education Retirement System (BERS) Holdings Data,split,period_end_date,2015-2023,period_end_date[2015-2023],y
+mu46-p9is,Forestry Service Requests,split,initiateddate,2015-2023,initiateddate[2015-2023]; closeddate[2015-2023]; createddate[2015-2023]; updateddate[2015-2023],y
+a9md-ynri,Civil Service List Certification,split,cert_date,2016-2024,request_date[2016-2024]; cert_date[2016-2024],y
+fuhs-xmg2,Urban Park Ranger Animal Condition Response,split,date_and_time_of_initial,2018-2026,date_and_time_of_initial[2018-2026]; date_and_time_of_ranger[2018-2026],y
+pqmq-sk82,Youth Engagement By Category,split,report_date,2018-2026,report_date[2018-2026],y
+5awp-wfkt,"Cash Assistance, Medicaid, and SNAP - Borough/Community District Report",split,month,2018-2026,month[2018-2026],y
+7479-ugqb,Daily Inmates In Custody,split,admitted_dt,2018-2026,admitted_dt[2018-2026],y
+veav-vj3r,"Individual Census by Borough, Community District, and Facility Type",split,report_date,2018-2026,report_date[2018-2026],y
+ebkm-iyma,DYCD Program Sites,split,fiscalyear,2017-2025,date[2017-2025],y
+2iga-a6mk,Zoning Application Portal (ZAP) - BBL,split,validated_date,2018-2026,validated_date[2018-2026],y
+6yyb-pb25,Street Pavement Ratings,split,inspection,2018-2026,inspection[2018-2026],y
+ii3r-svjz,Bureau of Fire Investigations - Fire Causes,split,case_year,2016-2024,case_year[2016-2024]; incident_datetime[2016-2024],y
+3qem-6v3v,Buildings by Borough and Community District,split,report_date,2018-2026,report_date[2018-2026],y
+fd95-5ihz,NYC Rezoning Tracker,split,year,2017-2025,year[2017-2025],y
+rrtd-iyd7,485-x Affordable Neighborhoods for New Yorkers: Registrations of Prospective Applicants for Tax Benefits,split,form_submission_date,2024-2031,form_submission_date[2024-2026]; reported_commencement_date[2022-2027]; reported_anticipated[2024-2031],y
+rsnp-rdyf,Quarterly Borrowing Schedule,split,fiscal_year,2020-2027,fisc_yr[2020-2027],y
+krx7-u82t,Trade Waste Broker Registrants,split,created,2017-2024,created[2017-2024]; export_date[2017-2024],y
+rqgf-94xs,Pregnancy Risk Assessment Monitoring System (PRAMS),split,year,2016-2023,year[2016-2023],y
+nurq-xj9w,NYC Open Data Plan: FOIL Datasets,split,report_year,2018-2025,year[2018-2025],y
+bqiq-cu78,NYPD Hate Crimes,split,complaint_year_number,2019-2026,complaint_year_number[2019-2026]; record_create_date[2019-2026],y
+n5n4-5k5r,Debt Issuance by Issuer,split,issue_date,2019-2026,iss_dt[2019-2026],y
+95aa-k2ka,Office of The Comptroller: Fire Department Retirement System Holdings Data,skip,period_end_date,2017-2024,period_end_date[2017-2024],y
+7hgn-sgmk,DCLA Cultural Organizations Capital Funding,split,fiscal_year_fy,2018-2025,fiscal_year_fy[2018-2025],y
+qy7q-cb9e,Address Assignments,split,created_date,2010-2017,created_date[2010-2017]; last_modified_date[2010-2017],y
+ftyx-fhnc,Work Progress Program (WPP) for NYCHA Residents - Local Law 163,split,year,2017-2024,year[2017-2024],y
+nu7n-tubp,NYC Dog Licensing Dataset,split,licenseissueddate,2016-2023,licenseissueddate[2014-2023]; licenseexpireddate[2016-2031]; extract_year[2016-2023],y
+qcdj-rwhu,HISTORICAL Sidewalk Café Licenses and Applications,skip,app_status_date,2014-2021,app_status_date[2014-2021]; app_too_date[2014-2020]; submit_date[2013-2020]; intake_dd[2013-2020]; send_package_dd[2014-2020]; cp_dd[2013-2020]; cb_dd[2014-2020]; hearing_dd[2014-2020]; cc_dd[2015-2020],y
+sqcr-6mww,311 Service Requests for 2004,skip,closed_date,2004-2011,closed_date[2004-2011],y
+8wi4-bsy4,Local Law 7-2018 Qualified Transactions,split,deed_date,2018-2025,deed_date[2018-2025],y
+tap2-dwrw,Mayor’s Office of Operations: Demographic Survey,split,create_dt,2018-2025,create_dt[2018-2025],y
+5uei-swth,Bike Share Inspections (Historical),split,inpectiondate,2013-2020,inpectiondate[2013-2020],y
+87fx-28ei,Wholesale Markets,split,created,2017-2024,created[2017-2024]; export_date[2017-2024],y
+4ptz-hmtc,Annual Examination Schedule of Each Fiscal Year,split,application_period_start,2019-2026,application_period_start[2019-2026]; application_period_end_date[2019-2026],y
+867j-5pgi,Trade Waste Hauler Licensees,split,created,2017-2024,created[2017-2024]; export_date[2017-2024],y
+8zxg-9a5c,NYC Business Solutions for NYCHA Residents by City Council District - Local Law 163,split,year,2017-2024,year[2017-2024],y
+5284-7vfz,Local Law 19 of 1999 Report - Monthly Placements,split,report_date,2018-2025,report_date[2018-2025],y
+t5n6-gx8c,NYC Ferry Ridership,split,date,2017-2024,date[2017-2024],y
+t474-a92g,City Council Capital Budget,split,reported,2019-2026,reported[2019-2026],y
+5fsv-ze7v,Public Design Commission Annual Report,split,meeting_date,2017-2024,meeting_date[2017-2024],y
+e3qr-idgg,Local Law 19 - Annual Report DHS Shelter (Historical),split,fiscal_year,2017-2024,fiscal_year[2017-2024],y
+u42g-qjaj,Additional Costs Allocation,split,fiscal_year,2020-2027,fisc_yr[2020-2027],y
+3tw8-6si8,Fair Fares Enrollees,split,month,2019-2026,month[2019-2026],y
+bkui-39n8,Adult Protective Services - Refer to Close,split,report_date,2018-2025,report_date[2018-2025],y
+vibf-3qrq,Adult Protective Services - Ineligible Referral,split,report_date,2018-2025,report_date[2018-2025],y
+x4x8-m3ds,Summer Youth Employment Program (SYEP) for NYCHA Residents by Borough- Local Law 163,split,year,2017-2024,year[2017-2024],y
+cspg-yi7g,Construction Demolition Registrants,split,created,2017-2024,created[2017-2024]; export_date[2017-2024],y
+8hgr-brxd,DCA Monthly Compliance Report Date for Process Servers,skip,month_year,2011-2018,month_year[2011-2018]; randomly_generated_audit[2011-2018]; alternate_randomly_generated[2011-2018],y
+erm2-nwe9,311 Service Requests from 2020 to Present,skip,closed_date,2019-2026,created_date[2020-2025]; closed_date[2019-2026]; resolution_action_updated_date[2019-2026],y
+5u2d-n46s,Office of The Comptroller: Teachers Retirement System Holdings Data,skip,period_end_date,2017-2024,period_end_date[2017-2024],y
+dy3p-ay2d,Office of The Comptroller: Police Retirement System Holdings Data,skip,period_end_date,2017-2024,period_end_date[2017-2024],y
+wz6d-d3jb,Bedbug Reporting,split,filing_date,2018-2025,filing_date[2018-2025]; filing_period_start_date[2017-2023]; filling_period_end_date[2018-2024],y
+snck-inhz,Resident Economic Empowerment and Sustainability (REES) for NYCHA Residents - Borough - Local Law 163,split,year,2017-2024,year[2017-2024]; total_number_of_resident_1[2112-2119],y
+52dp-yji6,DOB NOW: Safety Boiler,split,inspection_date,2017-2024,inspection_date[2017-2024],y
+r9ax-4va4,Waiting List Applications for Midtown Core Zone Vending License,skip,selection_date,2016-2023,selection_date[2016-2023],y
+f9wb-g8mb,NYC Cooling Tower System Inspection Results,split,inspection_date,2017-2024,inspection_date[2017-2024],y
+v7hc-c85a,Workforce 1 for NYCHA Residents by Borough - Local Law 163,split,year,2017-2024,year[2017-2024],y
+iyka-7txw,POP for NYCHA Residents - Local Law 163,split,year,2017-2024,year[2017-2024],y
+rixx-fc37,Historical Voter Turnout,split,year,2017-2024,election_date[2017-2024]; year[2017-2024],y
+rc2t-8fid,High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by Borough – Local Law 163,split,year,2017-2024,year[2017-2024],y
+kuxa-tauh,City Bench Locations (Historical),split,installati,2012-2019,installati[2012-2019],y
+vhah-kvpj,Workforce 1 for NYCHA Residents by NYCHA Development - Local Law 163,split,year,2017-2024,year[2017-2024],y
+ay6v-3gm3,SNAP and Cash Assistance for NYCHA Residents - Local Law 163,split,year,2017-2024,year[2017-2024],y
+4kkh-qhtc,Jobs Plus for NYCHA Residents - Local Law 163,split,year,2017-2024,year[2017-2024],y
+bray-s6dc,OCDV Family Justice Center Foreign Born Report,skip,visit_year,2010-2017,visit_year[2010-2017],y
+mpw3-7xyh,Adult Protective Services - Refer to Close by Referral Source,split,report_date,2018-2025,report_date[2018-2025],y
+jege-pgbz,NYC Business Solutions for NYCHA Residents by Borough - Local Law 163,split,year,2017-2024,year[2017-2024],y
+a8wp-rerh,Self Hauler Registrants,split,created,2017-2024,created[2017-2024]; export_date[2017-2024],y
+6rf2-gv9k,"DOF: Summary of Neighborhood Sales Citywide Class 1-, 2- and 3-Family homes",split,year,2010-2017,year[2010-2017],y
+adax-9mit,Speculation Watch List,split,yearqtr,2018-2025,deed_date[2018-2025],y
+hjvj-jfc9,NYC Business Solutions for NYCHA Residents by NYCHA Development - Local Law 163,split,year,2017-2024,year[2017-2024],y
+p3e6-t4zv,Office of The Comptroller: NYC Employee Retirement System (NYCERS) Holdings Data,split,data_as_of,2017-2024,period_end_date[2017-2024],y
+fpxc-zjtm,Proxy Voting Records,split,record_date,2017-2024,meeting_date[2017-2024]; record_date[2017-2024],y
+gzfs-3h4m,Agency Spending by Budget Function,split,first_plan_fiscal_year,2018-2025,first_plan_fiscal_year[2018-2025],y
+xprg-trsi,General Obligation Variable Rate Bonds Credit and Liquidity Agreements,split,data_as_of,2018-2025,data_as_of[2018-2025],y
+7c9t-ckpj,NYW Bond Issuance,split,iss_dt,2019-2026,iss_dt[2019-2026],y
+p2wf-m8zt,Tobacco Retail Dealer and Electronic Cigarette Retail Dealer Caps by Community District,split,data_as_of,2019-2026,data_as_of[2019-2026],y
+m8p6-tp4b,Property Valuation and Assessment Data Tax Class 1,skip,fv_chgdt,2010-2017,fv_chgdt[2010-2017]; chgdt[2010-2017],y
+5tgd-xk3z,Hepatitis B & C Surveillance Registry,split,year,2016-2022,year[2016-2022],y
+6r9j-qrwz,DSNY Disposal Facilities Used by Year,split,calendar_year,2018-2024,calendar_year[2018-2024],y
+k397-673e,Citywide Payroll Data (Fiscal Year),split,fiscal_year,2019-2025,fiscal_year[2019-2025],y
+xip9-pe9k,Government Publications Listing,split,date_published,2020-2026,last_modified[2020-2026],y
+bme5-7ty4,Moving Violation B Summons (Historic),split,violation_date,2018-2024,violation_date[2018-2024],y
+cwy2-px8b,Local Law 8 of 2020 – Complaints of Illegal Parking of Vehicles Operated on Behalf of the City,split,created_date,2020-2026,created_date[2020-2026]; closed_date[2020-2026]; resolution_action_updated[2020-2026],y
+n6ej-pebd,Capital Awards,split,fiscal_year,2015-2021,fiscal_year[2015-2021],y
+7wa7-cvt5,Local Law 161 Arrests by Peace Officers at Benefits Access Centers and SNAP Centers,split,year,2019-2025,year[2019-2025]; quarter[2019-2025],y
+f7dc-2q9f,SARS-CoV-2 concentrations measured in NYC Wastewater,split,sample_date,2020-2026,sample_date[2020-2026]; test_date[2020-2026],y
+rytv-g5ui,NYC Drinking Water Tank Inspections and Audits Compliance Results,split,compliance_year,2019-2025,activity_year[2021-2025]; compliance_year[2019-2025]; date_of_occurrence[2021-2026],y
+q9w2-yi4x,Article 730 Transfer Waitlist,split,admit_date,2016-2022,admit_date[2016-2022]; designation_date[2019-2022]; discharge_date[2019-2022],y
+h65x-gk9r,Resident Economic Empowerment and Sustainability (REES) for NYCHA Residents – Council District - Local Law 163,split,year,2018-2024,year[2018-2024],y
+vyk9-wyct,Civil Service Exams for NYCHA Residents - Local Law 163,split,year,2018-2024,year[2018-2024],y
+wn4z-dw55,Local Law 161 Summons Issued by Peace Officers  at Benefits Access Centers and SNAP Centers,split,year,2019-2025,year[2019-2025]; quarter[2019-2025]; issue_date[2019-2025],y
+ejux-uh6h,Local Law 161- Agency Calls to NYPD for Assistance at Job and SNAP Centers,split,year,2019-2025,year[2019-2025]; quarter[2019-2025],y
+kb2e-tjy3,FloodNet: Sensor Deployment Metadata,split,date_installed,2020-2026,date_installed[2020-2026],y
+5uf6-jjmy,Cash Assistance and SNAP Cases Reopenings,split,calendar_year,2019-2025,calendar_year[2019-2025]; date[2019-2025],y
+fvp3-gcb2,Local Law 84 Monthly Data (Calendar Year),split,calendar_year,2018-2024,calendar_year[2018-2024],y
+kkng-ugna,2019-20 School Quality Guide Early Childhood,skip,dates_of_review,2014-2020,dates_of_review[2014-2020],y
+wymh-dvmd,DOHMH Call Center Summary,split,year,2019-2025,year[2019-2025],y
+hy4q-igkk,311 Service Requests for 2006,skip,closed_date,2005-2011,closed_date[2005-2011]; resolution_action_updated_date[2006-2010],y
+99xv-he3n,DSNY Disposal Sites Used by Facilities by Year,split,calendar_year,2018-2024,calendar_year[2018-2024],y
+9rz4-mjek,Tax Lien Sale Lists,split,month,2019-2025,month[2019-2025],y
+28gm-7ump,Cash Assistance and SNAP Cases Reopenings with a Missed Benefits Cycle,split,calendar_year,2019-2025,calendar_year[2019-2025]; date[2019-2025],y
+tm9k-c4na,Local Law 161 Removals by Peace Officers at Benefits Access Centers and SNAP Centers,split,year,2019-2025,year[2019-2025]; quarter[2019-2025]; date_of_removal[2019-2025],y
+aq7i-eu5q,FloodNet: Street Flooding Events Measured by FloodNet Sensors,split,flood_start_time,2020-2026,flood_start_time[2020-2026]; flood_end_time[2020-2026],y
+acek-a5z6,Summer Youth Employment Program (SYEP) for NYCHA Residents by NYCHA development- Local Law 163,split,year,2018-2024,year[2018-2024],y
+dx8z-6nev,Donations to Not-for-Profit Organizations Affiliated with Elected Officials,split,year_of_donation,2018-2024,year_of_donation[2018-2024]; date_of_donation[2018-2024],y
+mpbx-6c9k,Mayor's Office to End Domestic and Gender-Based Violence Annual  Report on Outreach to Cosmetologists,split,year,2019-2025,year[2019-2025],y
+nxmt-wszr,LinkNYC Weekly Usage (Updated),split,report_ending_weekly_starting,2020-2026,report_ending_weekly_starting[2020-2026],y
+77zj-y2i9,Expense Budget--Debt Service Statement II,split,curr_yr,2020-2026,curr_yr[2020-2026],y
+h59m-jnyu,Contract Budget by Category,split,fisc_yr,2021-2027,fisc_yr[2021-2027],y
+ci36-d7ea,2019-20 School Quality Guide High Schools,split,dates_of_review,2014-2020,dates_of_review[2014-2020],y
+5fs5-yi3e,Cash Assistance and SNAP Cases Closed,split,calendar_year,2019-2025,calendar_year[2019-2025]; date[2019-2025],y
+rdjw-z878,CBO Expense Report,skip,fiscal_year,2012-2018,fiscal_year[2012-2018],y
+fydx-dgvr,Directory of Requests for Telephonic Interpretation,split,year,2018-2024,year[2018-2024],y
+mju7-rqph,Heroes of the Month,split,month,2014-2020,month[2014-2020],y
+i6ds-scnc,High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by Council District – Local Law 163,split,year,2018-2024,year[2018-2024],y
+tzsf-n2j8,Local Law 161 - Escorts at Benefits Access Centers and SNAP Centers,split,year,2019-2025,year[2019-2025]; quarter[2019-2025],y
+4utb-pisg,Capital Plan Funding Source,split,fy1_yr,2020-2026,fy1_yr[2020-2026],y
+4yay-s2us,Debt Service Major Indicators,split,fy1_yr,2020-2026,fy1_yr[2020-2026],y
+g6pg-qint,Cash Assistance and SNAP Cases Rejections,split,calendar_year,2019-2025,calendar_year[2019-2025]; date[2019-2025],y
+fudw-fgrp,NYC Parks Events Listing – Event Listing,split,date,2013-2019,date[2013-2019],y
+9tnu-6rdi,High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163,split,year,2018-2024,year[2018-2024],y
+qhm5-h46t,Where the Dollar Comes From and Goes To,split,fisc_yr,2021-2027,fisc_yr[2021-2027],y
+c38p-gtif,2019-20 School Quality Guide Citywide Distict 75,split,dates_of_review,2014-2020,dates_of_review[2014-2020],y
+f4tj-796d,NYPD Use of Force Incidents,split,occurrence_date,2020-2026,occurrence_date[2020-2026],y
+hdie-5bdv,Debt Burden,split,fy1_yr,2020-2026,fy1_yr[2020-2026],y
+dnpx-dfnc,School Quality Reports Data,split,report_year,2018-2024,school_year[2017-2023]; report_year[2018-2024],y
+d6zx-ckhd,NYPD Calls for Service (Historic),split,create_date,2019-2025,create_date[2019-2025]; incident_date[2019-2025],y
+5rw7-99k7,Runaway and Homeless Youth (RHY) Daily Census,split,date,2019-2025,date[2019-2025],y
+vy5i-a666,Advertised Lotteries on Housing Connect by Lottery,split,lottery_start_date,2020-2026,lottery_start_date[2020-2026]; lottery_end_date[2020-2026],y
+e27m-uhjk,Banking Corporation Issuer's Allocation Percentage Report,split,report_year,2010-2016,report_year[2010-2016],y
+9y7k-h295,Local Law 8 of 2020 Report – Monthly Complaints of Illegal Parking of Vehicles Operated on Behalf of the City,split,created_year,2020-2026,created_year[2020-2026],y
+f9xn-fiww,Community Boards Geographic Report,split,fisc_yr,2021-2027,fisc_yr[2021-2027],y
+dggd-3jfu,Resident Economic Empowerment and Sustainability (REES) for NYCHA Residents – NYCHA Development - Local Law 163,split,year,2018-2024,year[2018-2024],y
+ynic-uz5i,Vehicle Auction List,split,auction_close_date,2020-2026,auction_close_date[2020-2026],y
+ex6k-ym48,Claims Report - Underlying Settlements and Claims Filed Data,split,fiscal_year_fy,2016-2022,fiscal_year_fy[2016-2022],y
+sxmw-f24h,311 Service Requests for 2005,skip,closed_date,2004-2010,closed_date[2004-2010],y
+gxfj-gcr2,Local Law 161 - Use of Force (UoF) Incidents at Benefits Access Centers and SNAP Centers,split,year,2019-2025,year[2019-2025]; quarter[2019-2025]; incident_date[2019-2025],y
+jtpv-nuuc,2019-20 School Quality Guide Elementary Middle School,split,dates_of_review,2014-2020,dates_of_review[2014-2020],y
+s7cx-86ha,2018 -2019 SQG EC,skip,dates_of_review,2014-2020,dates_of_review[2014-2020],y
+g76y-dcqj,DOB After Hour Variance Permits,split,variance_start_date_time,2017-2023,variance_start_date_time[2017-2023]; variance_end_date_time[2017-2023],y
+wcpw-9chs,Asset Management Executive Summary - State of Good Repair Needs (Capital Eligible),split,fst_fy_four_yr,2021-2027,fst_fy_four_yr[2021-2027]; fst_fy_six_yr[2025-2031],y
+nhtw-fjuj,Financial Plan Statements - Personal Service Expenditures,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+msid-end4,Mosquito control events in NYC – Adult Mosquito Truck Spraying and Aerial Larviciding Events,split,year,2018-2023,year[2018-2023],y
+jvwx-xnsr,Outdoor Swimming Pool Attendance,split,date,2017-2022,date[2017-2022],y
+knr6-vurn,Collisions involving vehicles managed by Department of Health and Mental Hygiene (DOHMH),split,date,2017-2022,date[2017-2022],y
+js7p-g9f6,CDBG-DR Program Categories,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+b9yk-4pzk,Action Taken Against Process Servers,split,date,2019-2024,date[2019-2024],y
+wyih-3nzf,Protected Streets Block (Dataset),split,dateprotectedfrom,2021-2026,dateprotec[2021-2026]; dateprot_1[2026-2031],y
+nrik-v7ws,Expense Actuals By Funding Source,split,fisc_yr,2020-2025,fisc_yr[2020-2025],y
+7t9i-jsfp,"Annual Report on Domestic Violence Initiatives, Indicators and Factors",split,year,2020-2025,year[2020-2025],y
+2hrw-qfsu,Detention Admissions by Community District,split,calendar_year,2019-2024,calendar_year[2019-2024],y
+dxru-eun8,Storefront Registration Class 2 and 4 Statistics,split,reporting_year,2019-2024,reporting_year[2019-2024],y
+rc75-m7u3,"COVID-19 Daily Counts of Cases, Hospitalizations, and Deaths",split,date_of_interest,2020-2025,date_of_interest[2020-2025],y
+qm5f-frjb,Participatory Budgeting Project Tracker,split,vote_year,2012-2017,vote_year[2012-2017],y
+xnfm-u3k5,Street Resurfacing Schedule,split,date,2019-2024,date[2019-2024],y
+rgyu-ii48,DOF Property Abatement Detail,split,taxyear,2020-2025,extractdt[2020-2025],y
+bzby-7sfr,Aquatics Programming: 2021 to current,split,starttime,2021-2026,starttime[2021-2026],y
+atne-2dki,Supervised Release Dockets,split,program_entry_date,2016-2021,program_entry_date[2016-2021],y
+muvi-b6kx,Property Exemption Detail,split,year,2021-2026,year[2021-2026],y
+h4mf-f24e,Buildings Selected for the Heat Sensor Program (HSP),skip,program_start_date,2020-2025,program_start_date[2020-2025],y
+vk6p-jwjf,Financial Services for NYCHA Residents by Council District - Local Law 163,split,year,2019-2024,year[2019-2024],y
+iw4r-p85g,Expense Budget-Debt Service Agency OTPS Detail,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+27x4-cbi6,Pregnancy-Associated Mortality,split,year,2016-2021,year[2016-2021],y
+6ynm-g82n,A Foundation Report: Stalking,skip,year,2013-2018,year[2013-2018],y
+aiww-p3af,311 Service Requests for 2007,skip,closed_date,2006-2011,closed_date[2006-2011]; resolution_action_updated_date[2007-2011],y
+855v-w7mc,Pre-Application Meetings,split,date_of_meeting,2019-2024,date_of_meeting[2019-2024],y
+aqs7-v55z,Donations Received by City Agencies,split,year,2019-2024,year[2019-2024],y
+9k82-ys7w,Bid Tabulations (Historical),split,bid_opening_date,2016-2021,bid_opening_date[2016-2021],y
+rcd4-qkns,Urban Park Ranger Engagement Tracker,split,date,2019-2024,date[2019-2024],y
+pw4e-vms3,Department of Veterans' Services Cases,split,calendar_year,2018-2023,calendar_year[2018-2023],y
+duz4-2gn9,NYC Open Data Plan: Website Data,split,year,2020-2025,year[2020-2025],y
+fdgu-y9iy,Expense Budget--Miscellaneous Expense by Category,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+4xfc-mzbg,Financial Plan Statements - Capital Cashflow,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+gsgx-6efw,Street Construction Permits - Stipulations (2020 - Present),split,createdon,2020-2025,createdon[2020-2025],y
+tja3-yjvi,Natural Turf Maintenance,split,dateofwork,2020-2025,dateofwork[2020-2025],y
+fpfg-qx2w,Financial Plan Statements - Revenue and Obligation Forecast,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+9a6i-gcns,Street Direction Change Requests (2019 - Present),split,request_date,2019-2024,request_date[2019-2024],y
+au2c-rs69,District Resource Statement (DRS),split,data_as_of,2017-2022,data_as_of[2017-2022],y
+8p6c-94pc,"""Kids In Motion"" Playground Programming: 2016 to 2021",skip,week_start_date,2016-2021,week_start_date[2016-2021]; week_end_date[2017-2021],y
+g2t5-u7v8,Financial Plan Statements - Revenue,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+7arw-dbem,Lobbyists' Fundraising and Political Consulting Reports,split,filing_year,2020-2025,filing_year[2020-2025]; period_start_date[2020-2025]; period_end_date[2020-2025],y
+hjz2-y62k,Shared E-Scooter Parking Corrals,split,install_da,2021-2026,install_da[2021-2026],y
+x3n4-h56k,Storefront Registration Statistics for Designated Class One,skip,reporting_year,2019-2024,reporting_year[2019-2024],y
+hjjq-k984,Financial Plan Statements - Obligation,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+2c9f-2ta9,Financial Services for NYCHA Residents by Borough - Local Law 163,split,year,2019-2024,year[2019-2024],y
+3kfa-rvez,NYC Pool Inspections,split,inspection_date,2019-2024,inspection_date[2019-2024],y
+f4zj-z3db,2019-20 School Quality Guide High School Transfer,split,dates_of_review,2014-2019,dates_of_review[2014-2019],y
+idat-aemv,Department of Veterans' Services Clients,split,calendar_year,2018-2023,calendar_year[2018-2023],y
+3rfa-3xsf,311 Service Requests for 2009,skip,resolution_action_updated_date,2008-2013,created_date[2009-2009]; closed_date[2008-2011]; resolution_action_updated_date[2008-2013],y
+dcjb-es8v,Headcount Actuals By Funding Source,split,fisc_yr,2020-2025,fisc_yr[2020-2025],y
+a5nd-6mit,DOF Property Assessment Change,split,wen,2019-2024,wen[2019-2024]; extractdt[2019-2024],y
+k46n-sa2m,DHS Daily Report,split,date_of_census,2021-2026,date_of_census[2021-2026],y
+4ubz-8kkx,Financial Plan Statements - Cash Flow,split,fisc_yr,2021-2026,fisc_yr[2021-2026],y
+esmb-8zkm,School Based Programs by Borough,split,fy,2024-2029,fy[2024-2029],y
+fmf3-knd8,City Clerk eLobbyist Data,split,report_year,2021-2026,report_year[2021-2026]; start_date[2021-2026]; end_date[2021-2026]; periodic_year[2021-2026],y
+wwhr-5ven,Participatory Budgeting Projects,split,vote_year,2012-2017,vote_year[2012-2017],y
+d83i-6us7,Street Seats (2014 - 2019),skip,year,2014-2019,year[2014-2019],y
+bryy-vqd9,Protected Streets Intersection (Dataset),skip,dateprotec,2021-2026,dateprotec[2021-2026]; dateprot_1[2026-2031],y
+vwpc-kje2,311 Web Content - Services,skip,updated_date,2013-2018,updated_date[2013-2018]; batch_date[2015-2018],y
+basd-2jwn,Official Fundraising by City Agencies,split,year,2019-2024,year[2019-2024],y
+pbk5-6r7z,Street Construction Permits - Stipulations (Historical),split,createdon,2013-2018,createdon[2013-2018],y
+5mv6-f76y,LinkNYC_OpenData_9_6_2016_SP83,split,install_co,2015-2019,activation[2016-2019]; install_co[2015-2019],y
+8y4t-faws,"Property Valuation and Assessment Data Tax Classes 1,2,3,4",split,year,2023-2027,year[2023-2027]; extracrdt[2022-2026],y
+fzy4-e84j,Older Adult Center (OAC) Activities,skip,starttime,2026-2030,starttime[2026-2030]; endtime[2026-2030],y
+42et-jh9v,2013 - 2014 DOE High School Performance-Directory,split,quality_review_year,2008-2012,quality_review_year[2008-2012],y
+qw7r-btyb,Report to City Council on Use of Psychiatric Medication for Youth in Foster Care,skip,report_date,2022-2026,report_date[2022-2026],y
+bzxi-2tsw,Certification of No Harassment (CONH) Pilot Building List,split,date_added,2022-2026,date_added[2022-2026],y
+w5ew-m3sm,BOA and Community Brownfield Planning Areas - Designated BOAs,skip,des_year,2015-2019,des_year[2015-2019],y
+auj6-ur3j,"Cash Assistance Applications for Youth Heads of Household, Ages 16 - 20",skip,date_from,2020-2024,date_from[2020-2024]; date_to[2020-2024],y
+5nux-zfmw,Local Law 97 of 2021 - Pets in Shelter Report,skip,date_year,2022-2026,date_year[2022-2026],y
+ynaw-bmnm,Workforce 1 for NYCHA Residents by City Council District - Local Law 163,split,year,2020-2024,year[2020-2024],y
+iaig-3vs5,Leaning Bars (Historic),skip,installati,2016-2020,installati[2016-2020],y
+2h3w-9uj9,2014-15 - 2018-19 NYC Regents Exam - Public,split,year,2015-2019,year[2015-2019],y
+kj7g-u4gp,Electric Vehicle (EV) Charging Data - Municipal Lots and Garages,split,date,2021-2025,date[2021-2025],y
+dbpt-pbmd,EEO-4 Reports,split,fy,2019-2023,fy[2019-2023],y
+kvhd-5fmu,NYC Benefits Platform: Benefits and Programs Dataset,skip,updated_at,2022-2026,updated_at[2022-2026],y
+bnea-fu3k,2014-15 to 2017-19 NYC Regents Exam Results - Public,split,year,2015-2019,year[2015-2019],y
+hphy-6g7m,Water and Sewer Permits,split,issuancedate,2021-2025,issuancedate[2021-2025],y
+wnhd-n675,Swim for Life: 2022 to current,split,starttime,2022-2026,starttime[2022-2026],y
+utpj-74fz,Energy and Water Data Disclosure for Local Law 84 2017 (Data for Calendar Year 2016),skip,date_property_last_modified,2014-2018,date_property_last_modified[2014-2018]; data_quality_checker_date[2016-2018]; generation_date[2017-2018]; release_date[2017-2018],y
+yqky-aebb,Jobs Created by Energy Cost Savings Program Savings for Businesses,split,period,2018-2022,period[2018-2022],y
+idfb-y78n,Recreational Boating Permits,split,year,2013-2017,year[2013-2017],y
+r2np-vamf,Performance Metrics for Workforce Development Programs,split,period,2017-2021,period[2017-2021],y
+yjpx-srhp,NYC Benefits Platform: Benefits and Programs Multilingual Dataset,skip,updated_at,2022-2026,updated_at[2022-2026],y
+bug8-9f3g,Value of Energy Cost Savings Program Savings for Businesses,split,period,2018-2022,period[2018-2022],y
+graj-69em,Department of Youth and Community Development (DYCD) Contracts,split,fiscal_year,2021-2025,term_start_date[2016-2025]; term_end_date[2020-2030]; registration_date[2015-2026]; fiscal_year[2021-2025],y
+xeg4-ic28,Summer Sports Experience: 2017 to 2021,split,week_start_date,2017-2021,week_start_date[2017-2021]; week_end_date[2017-2021],y
+wa2y-rh4b,Capital Project Detail Data - Dollars,split,fy_yr1_plan,2019-2023,fy_yr1_plan[2019-2023],y
+kizp-4dfk,311 Customer Satisfaction Survey,split,year,2020-2024,year[2020-2024]; start_time[2020-2024]; completion_time[2020-2024],y
+uzcy-9puk,311 Service Requests for 2008,skip,closed_date,2007-2011,created_date[2008-2008]; closed_date[2007-2011]; resolution_action_updated_date[2007-2011],y
+4fnu-iufz,FY2013 PMMR Agency Performance Indicators,split,fiscal_year,2010-2014,fiscal_year[2010-2014],y
+y6ds-67d5,Brooklyn Borough President Office Requests for Assistance,split,year,2015-2019,year[2015-2019],y
+tg4x-b46p,Film Permits,split,enteredon,2022-2026,startdatetime[2023-2026]; enddatetime[2023-2026]; enteredon[2022-2026],y
+5ijn-vbdv,311 Resolution Satisfaction Survey,split,survey_year,2022-2026,year[2022-2026],y
+cfz5-6fvh,City of New York Municipal Solar-Readiness Assessment (Local Law 24 of 2016) data,split,year_of_report,2020-2024,year_of_report[2020-2024]; data_current_as_of[2021-2024],y
+95kh-h6zc,Dewatered Solids and Biosolids Allocations per Biosolids Management Practice Site,split,year,2020-2024,year[2020-2024],y
+pitm-atqc,Open Restaurant Applications (Historic),split,time_of_submission,2020-2023,time_of_submission[2020-2023],y
+g2dh-zf5t,Child Support Caseload and Collections,split,date,2023-2026,date[2023-2026],y
+9a87-6m4x,Industrial & Commercial Abatement Program (ICAP) Businesses that received EO50 certificate of approval from SBS,split,eo50_approval_date,2022-2025,date[2022-2025],y
+8s5k-n45n,LinkNYC Kiosk Status (Archived),skip,install_date,2015-2018,publish_date[2018-2018]; install_date[2015-2018]; active_date[2016-2018],y
+45at-qem6,AIR_LOT_POLYGON,skip,created_date,2023-2026,created_date[2023-2026]; last_edited_date[2023-2026],y
+5n4h-km5r,Medical Non-production for Clinic Appointments,split,year,2022-2025,year[2022-2025],y
+n56u-3hzv,Local Law 83 - City Agency Advertising Spend,split,fiscal_year,2022-2025,run_start_date[2022-2025],y
+8fei-z6rz,"Weights, Measures, and Other Tests",split,date_of_occurance,2023-2026,date_of_occurance[2023-2026],y
+dsg6-ifza,DOHMH Childcare Center Inspections (Historical),split,inspectiondate,2020-2023,inspectiondate[2020-2023],y
+4pta-f4ca,"Summer Sports Experience and ""Kids in Motion"" Programming: 2022 to current",split,date,2022-2025,date[2022-2025],y
+5vgr-4tp3,Cash Assistance Emergency Assistance Requests,split,calendar_year,2022-2025,calendar_year[2022-2025]; date[2022-2025],y
+ptev-4hud,License Applications,split,submission_date,2023-2026,submission_date[2023-2026]; date_closed[2023-2026],y
+2xab-argn,DCWP Payments Received,split,payment_date,2023-2026,payment_date[2023-2026],y
+mhyv-6iza,Legal Defense Trust Expenditures,split,date_of_incurrence,2023-2026,date_of_incurrence[2023-2026],y
+wh8n-imgd,Local Law 3 of 2022 - Supportive Housing - Reporting on Coordinated Assessment and Placement System,split,reporting_period,2022-2025,reporting_period[2022-2025],y
+4kc9-zrs2,Emergency Food Supply Gap,split,year,2022-2025,year[2022-2025],y
+nre2-6m2s,DCWP Consumer Complaints,split,intake_date,2023-2026,intake_date[2023-2026]; result_date[2023-2026],y
+82jf-bykm,Outdoor Pools Session Information,split,observationdate,2022-2025,observationdate[2022-2025]; opentime[2022-2025],y
+2bmr-jdsv,FHV Base Aggregate Report - Historical,split,year,2015-2018,pickup_start_date[2015-2018]; pickup_end_date[2015-2018],y
+szkz-syh6,Prequalified Firms,skip,prequalified_vendor_date,2026-2029,prequalified_vendor_date[2026-2029],y
+a35y-93e7,Family Violence Related Snapshots: New York City Community Board Districts,split,report_year,2017-2020,report_year[2017-2020],y
+9vpn-rpgs,DCWP Licensed Vehicles,skip,latest_inspection_date,2023-2026,latest_inspection_date[2023-2026],y
+4j6i-9rmr,Uniform Land Use Review Procedure (ULURP) Recommendations,split,recommendation_date,2018-2021,recommendation_date[2018-2021],y
+uhvm-6sct,Report to City Council on Demographics of Children and Parents at Steps in the Child Welfare System,split,report_period,2022-2025,report_period[2022-2025],y
+pqdc-ncdn,OneNYC 2050 (Historical),split,report_year,2019-2022,report_year[2019-2022]; data_period[2019-2022],y
+usmc-hn5p,DCM,skip,edit_date,2021-2024,edit_date[2021-2024],y
+ww83-bcks,M/WBE Upcoming Procurements,split,fiscal_year,2023-2026,fiscal_year[2023-2026],y
+guiy-frxt,Street Name Signs Work Orders (Historical),split,createddate,2018-2021,createddate[2018-2021]; assigneddate[2018-2021],y
+fiag-ac7u,Financial Services for NYCHA Residents by Development - Local Law 163,split,year,2021-2024,year[2021-2024],y
+xc44-2jrh,2018-2021 Daily Attendance by School,split,date,2018-2021,date[2018-2021],y
+5ery-qagt,DOHMH School Cafeteria Inspections (2020-Present),split,lastinspection,2023-2026,lastinspection[2023-2026]; inspectiondate[2023-2026],y
+4k4u-823g,Water and Sewer Permits (Historic),split,dateissued,2018-2021,dateissued[2018-2021],y
+7iqz-npua,NYCHA Citywide Special Events,split,start_time,2013-2016,start_time[2013-2016],y
+jzhd-m6uv,DCWP Inspections,split,date_of_occurrence,2023-2026,date_of_occurrence[2023-2026],y
+k8ah-28f4,Specialized High Schools Admissions Tests Results,split,year,2022-2025,year[2022-2025],y
+uwx4-aafe,Local Law 49 Reporting,split,date,2023-2026,date[2023-2026],y
+5fn4-dr26,DCWP Charges,split,violation_date,2023-2026,violation_date[2023-2026],y
+gaq9-z3hz,Recycling Diversion and Capture Rates,split,fiscal_year,2016-2019,fiscal_year[2016-2019],y
+k7b3-4y4m,Historical Medallion Drivers – Passenger Assistance Trained 2014-2016,split,last_updated_date,2013-2016,last_updated_date[2013-2016],y
+thut-5mdg,COVID-19 Expenditures Report (Historical),split,fiscal_year,2020-2023,fiscal_year[2020-2023]; date_of_exp[2020-2022],y
+tsb8-3rct,Discretionary Contract Awards,split,hdr_system_acceptance_date,2018-2021,hdr_system_acceptance_date[2018-2021],y
+75e9-fg2t,DYCD Contractors,split,fiscal_year,2010-2013,fiscal_year[2010-2013],y
+xp25-gxux,LinkNYC New Site Permit Applications,skip,final_submission_a,2021-2024,final_submission_a[2021-2024],y
+5t4n-d72c,Directory Of Homeless Population By Year,split,year,2009-2012,year[2009-2012],y
+3y5p-x48f,2015-2018 Historical Daily Attendance By School,split,date,2015-2018,date[2015-2018],y
+erdf-2akx,EZ Pass Readers 2021-July 2024,split,median_calculation_timestamp,2021-2024,median_calculation_timestamp[2021-2024],y
+xeqp-qz8h,"Serious Injury Response, Tracking & Analysis Program (SIRTA)",split,crash_date,2022-2025,crash_date[2022-2025],y
+73rz-5b7x,Summer Youth Employment Program (SYEP) for NYCHA Residents by Council District - Local Law 163,split,year,2021-2024,year[2021-2024],y
+5vi6-xdpy,Small Business Services (SBS) Equal Employment Opportunity (EO 50) Certified Businesses,split,eo50_approval_date,2022-2025,eo50_approval_date[2022-2025],y
+jaw4-yuem,Algorithmic Tools Compliance Report,split,year,2022-2025,year[2022-2025],y
+gqzy-vhwd,Brooklyn Borough President Meeting Requests,split,timestamp,2017-2020,timestamp[2017-2020],y
+vr2i-c3qq,Citiwide Service Desk Statistics,skip,year,2007-2010,year[2007-2010],y
+qiwj-eg47,Intimate Partner Violence Related Snapshots: New York City Community Board Districts,split,report_year,2016-2019,report_year[2016-2019],y
+np6w-pies,"HRA Facts, Programs and Services",split,reporting_month,2023-2026,reporting_month[2023-2026]; data_month[2023-2026],y
+de8q-estm,Business Solutions Business Courses,skip,local_start_time,2019-2022,local_start_time[2019-2022]; local_end_time[2020-2022]; ticket_sales_start[2019-2020]; ticket_sales_end[2019-2020],y
+95tx-snak,Capital Projects Dashboard - Citywide Schedule History and Variance,split,data_date,2023-2026,data_date[2023-2026],y
+bjmk-35w5,Current Plan Programs,split,constr_start_fy,2015-2018,constr_start_fy[2015-2018],y
+yjub-udmw,NYC Wi-Fi Hotspot Locations,skip,activated,2016-2019,activated[2016-2019],y
+9hhx-gjf8,NYC Open Data Plan: Completed Civic Engagements,split,report_year,2023-2025,year[2023-2025]; date_completed[2022-2025],y
+csps-2ne9,2014-15 To 2016-17 School- Level NYC Regents Report For All Variables,split,year,2015-2017,year[2015-2017],y
+2rb7-7eqa,"ENDGBV: The Intersection of Domestic Violence, Race/Ethnicity and Sex",split,report_date,2019-2021,report_date[2019-2021],y
+bf97-mjsy,Construction-Related Incidents,split,incident_date,2024-2026,incident_date_mm_dd_yyyy[2024-2026],y
+hxbk-grd3,NYPD OATH Summons Data,split,occur_date,2023-2025,occur_date[2023-2025],y
+t3pj-3dgu,Legal Defense Trust Refunded Donations,split,refund_date,2024-2026,donation_date[2023-2024]; refund_date[2024-2026],y
+qt4e-9a97,Prompt Payment Interest Rates,skip,fiscal_year,2013-2015,fiscal_year[2013-2015],y
+4dx7-axux,Open Restaurants Inspections,split,inspectedon,2020-2022,inspectedon[2020-2022],y
+d6di-qmzq,Competitive Sealed Bid Cycle Time by Agency and Fiscal Year,split,fiscal_year,2018-2020,fiscal_year[2018-2020],y
+hn9i-dwpr,NYPD Vehicle Stop Reports,split,occur_dt,2023-2025,occur_dt[2023-2025],y
+xaa3-fatk,Verified Locations for NYC City-Funded Social Service Contracts (Address Verification),split,verification_date,2016-2018,verification_date[2016-2018],y
+e98g-f8hy,Property Data (Buildings Information System),split,permit_issuance_date,2011-2013,permit_experation_date[2011-2013],y
+9tn4-3mgm,Local Law 83 – FY 2020-2022 Historical Ethnic and Community Media Agency Ad Spend by Agency,split,fiscal_year,2020-2022,fiscal_year[2020-2022],y
+8zf9-spf8,Parking Violations Issued - Fiscal Year 2024,skip,issue_date,2023-2025,issue_date[2023-2025],y
+qjvp-rnsx,Avenue NYC CFY17-CFY19,split,fiscal_year,2017-2019,fiscal_year[2017-2019],y
+d54t-ywim,Open Storefronts Applications (Historical),split,submission,2020-2022,submission[2020-2022],y
+6fi9-q3ta,Brooklyn Bridge Automated Pedestrian Counts Demonstration Project (Historic),split,hour_beginning,2017-2019,hour_beginning[2017-2019],y
+cbrh-qrk4,2014 - 2017 Regents,split,year,2015-2017,year[2015-2017],y
+dzvt-6g3v,311 Interpreter Wait Time,split,call_time,2023-2025,call_time[2023-2025],y
+keb3-v9xt,NYC Open Data Plan: Civic Engagement Activities (Historical),split,year,2020-2022,year[2020-2022],y
+fb86-vt7u,Capital Projects Dashboard - Citywide Budget and Schedule,split,fms_data_date,2023-2025,fms_data_date[2023-2025],y
+q7bn-wnne,"ENDGBV Social Media Outreach, Paid Advertising, and the NYC HOPE Resource Directory during COVID-19",split,date,2019-2021,date[2019-2021],y
+cqhz-kkvd,DOHMH COVID-19 Antibody-by-Week,split,week_ending,2020-2022,week_ending[2020-2022],y
+b3mq-yvvr,Wastewater Co-digestion and Biogas-to-grid Performance Indicators,split,year,2023-2025,year[2023-2025],y
+5zyy-y8am,NYC Building Energy and Water Data Disclosure for Local Law 84 2023 to Present (Data for Calendar Year 2022-Present),split,calendar_year,2022-2024,report_year[2022-2024]; year_ending[2022-2024]; last_modified_date_property[2020-2023]; last_modified_date_electric[2019-2023]; last_modified_date_gas_meters[2018-2023]; last_modified_date_water[2018-2023]; last_modified_date_property_1[2013-2023]; last_modified_date_property_2[2013-2023]; report_generation_date[2023-2025]; report_submission_date[2023-2024],y
+mefg-rpis,JobStat (Historical),split,report_date,2018-2020,report_date[2018-2020],y
+tvpp-9vvx,NYC Permitted Event Information,split,start_date_time,2024-2026,start_date_time[2024-2026]; end_date_time[2026-2027],y
+exaw-9qnu,Department for the Aging (NYC Aging) - Reported Service Units,split,servicefromdate,2022-2024,servicefromdate[2022-2024]; servicetodate[2022-2024],y
+b84a-xy2t,Multi Agency Response to Community Hotspot (MARCH) Inspections,split,date_of_inspection,2020-2022,date_of_inspection[2020-2022],y
+jsiv-zh9r,Legal Defense Trust Donations,split,date_of_donation,2023-2025,date_of_donation[2023-2025],y
+fpeh-f7ci,Dining Out NYC Locations,skip,license_issue_date,2024-2026,license_issue_date[2024-2026],y
+inb9-u6nt,LockerNYC Reservations,split,created_date,2024-2026,created_date[2024-2026]; delivery_date[2024-2026]; withdraw_date[2024-2026],y
+7ffd-6gs9,Public feedback on 311 request/complaint types,split,feedback_date_time,2023-2025,feedback_date_time[2023-2025],y
+7pza-ynkh,MOCS 15 Largest Contracts,split,fiscal_year,2018-2020,fiscal_year[2018-2020],y
+wa6b-r9jh,Participatory Budgeting Survey Data,split,survey_year,2017-2019,survey_year[2017-2019],y
+xt4f-xvjw,P-Card Purchase,split,fiscal_year,2018-2020,fiscal_year[2018-2020],y
+2nwg-uqyg,Emergency Department Visits and Admissions for Influenza-like Illness and/or Pneumonia,split,date,2020-2022,extract_date[2020-2022]; date[2020-2022],y
+2j8u-wtju,Benefits and Programs API (Historical),split,date,2017-2019,date[2017-2019],y
+rqvv-d722,Largest Requirements Contracts,split,fiscal_year,2018-2020,fiscal_year[2018-2020],y
+ge9t-ywzs,"ENDGBV: The Intersection of Domestic Violence, Race/Ethnicity and Sex",skip,year,2017-2019,year[2017-2019],y
+tt8e-a9vn,Department for the Aging (NYC Aging) - Reported Expenditures,split,contractyear,2022-2024,servicefromdate[2022-2024]; servicetodate[2022-2024],y
+6w36-zfn5,Project Labor Agreements and Apprenticeship Directive,split,fiscal_year,2018-2020,fiscal_year[2018-2020],y
+a2w2-wg79,Change Orders Cycle Time and Volume,split,fiscal_year,2018-2020,fiscal_year[2018-2020],y
+czei-7bxd,NYC Climate Budgeting Report: Forecast of Citywide Emissions,split,published_date,2024-2026,published_date[2024-2026],y
+6a2s-2t65,EZ Pass Readers July 2024- current,split,median_calculation_timestamp,2024-2026,median_calculation_timestamp[2024-2026],y
+veqt-eu3t,Hazard Mitigation Plan - Mitigation Actions Database,skip,action_status_date,2023-2025,action_status_date[2023-2025],y
+ufzp-rrqu,Pedestrian Ramp Locations,skip,geocyclora,2017-2019,geocyclora[2017-2019],y
+mcti-yg8i,MOIA In-person Interpretation Service Requests,split,date,2017-2019,date[2017-2019],y
+c23c-uwsm,SweepNYC Street Cleaning,skip,date_visited,2024-2026,date_visited[2024-2026],y
+sn5i-xuny,Alerts,skip,alert_date,2016-2017,alert_date[2016-2017]; resolution_date[2017-2017],y
+jt9i-9gxr,Environmentally Preferable Purchasing  FY15 - Goods,skip,registration_date,2014-2015,registration_date[2014-2015],y
+wbau-xy7g,Bronx Community Boards,split,year,2023-2024,year[2023-2024],y
+dpq6-sy7w,NYC Climate Budgeting Report: Resiliency Exposure Inventory,split,publication_date,2025-2026,publication_date[2025-2026],y
+ju3b-rwpy,2015 Street Tree Census - Blockface Data,split,surv_date,2015-2016,surv_date[2015-2016],y
+h6af-x63h,Outdoor Aquatics Programming: 2018 to 2019,split,year,2018-2019,year[2018-2019],y
+f34v-uffx,OneNYC Indicators (Historical),split,report_year,2017-2018,report_year[2017-2018],y
+kpav-sd4t,Jobs NYC Postings,split,posting_date,2025-2026,posting_date[2025-2026]; posting_updated[2026-2026],y
+davn-rbxj,Historical Veteran Peer Coordinator (VPC) Program Moves,split,intake_date,2018-2019,intake_date[2018-2019]; date_of_service_request[2018-2019]; actual_move_out_date[2018-2019]; service_request_resolution_1[2018-2019],y
+44f4-mjxy,Historical DVS Client Requests Received and Processed,split,report_fiscal_year,2020-2021,request_date[2019-2021]; report_fiscal_year[2020-2021],y
+7bjc-nmt5,Annual Concession Report (FCRC Report),split,fiscal_year,2019-2020,fiscal_year[2019-2020]; registration_date_status[2001-2020],y
+qp3b-zxtp,2022 Yellow Taxi Trip Data,skip,tpep_pickup_datetime,2021-2022,tpep_pickup_datetime[2021-2022]; tpep_dropoff_datetime[2021-2022],y
+2bvn-ky2h,Verified Locations for NYC City-Funded Social Service Contracts - Contracts,split,fiscal_year,2020-2021,start_date[1995-2021]; fiscal_year[2020-2021],y
+gi8d-wdg5,2015 Green Taxi Trip Data,skip,lpep_dropoff_datetime,2015-2016,lpep_pickup_datetime[2015-2015]; lpep_dropoff_datetime[2015-2016],y
+q5mz-t52e,2019 Green Taxi Trip Data,skip,lpep_pickup_datetime,2018-2019,lpep_pickup_datetime[2018-2019]; lpep_dropoff_datetime[2018-2019],y
+kewa-q4dq,LAW Press Releases,skip,press_release_date,2009-2010,press_release_date[2009-2010],y
+djnb-wcxt,2021 Green Taxi Trip Data,skip,lpep_pickup_datetime,2020-2021,lpep_pickup_datetime[2020-2021]; lpep_dropoff_datetime[2021-2021],y
+5ar6-qxhs,Street Seats (2021 - 2024),split,year,2021-2022,year[2021-2022],y
+gkne-dk5s,2014 Yellow Taxi Trip Data,skip,dropoff_datetime,2014-2015,pickup_datetime[2014-2014]; dropoff_datetime[2014-2015],y
+kxp8-n2sj,2020 Yellow Taxi Trip Data,skip,tpep_pickup_datetime,2019-2020,tpep_pickup_datetime[2019-2020]; tpep_dropoff_datetime[2019-2020],y
+8gpu-s594,Application for State Aid,split,appltosed,2024-2025,appltosed[2024-2025],y
+hm83-bdp7,Department for the Aging (NYC Aging) - Senior Center Local Law 140 Client Data - FY 2020,split,service_date,2019-2020,service_date[2019-2020],y
+3as9-uee8,layer_1,split,surv_date,2015-2016,surv_date[2015-2016],y
+usep-8jbt,NYC Citywide Rolling Calendar Sales,split,sale_date,2025-2026,sale_date[2025-2026],y
+uvpi-gqnh,2015 Street Tree Census - Tree Data,split,created_at,2015-2016,created_at[2015-2016],y
+g4tm-nibn,2017-18 Financial Services for NYCHA Residents - Local Law 163,split,year,2017-2018,year[2017-2018],y
+xw3c-8982,2013 - 2015  NYC Results On The New York State Math Test With Math Regents Included,split,year,2014-2015,year[2014-2015],y
+sejx-2gn3,Citywide Public Computer Centers,split,calendar_year,2025-2026,calendar_year[2025-2026],y
+5bsb-haw5,NYC Climate Budgeting Report: Climate Funding Expense Highlights,split,published_date,2026-2027,published_date[2024-2026]; fiscal_year[2026-2027],y
+ut65-is4f,Recovery Data Partnership (RDP) Data Partners,skip,partner_start_date,2020-2021,partner_start_date[2020-2021],y
+ygfr-ij6t,Department for the Aging (NYC Aging) - Senior Center Local Law 140 Provider Data - FY 2020,skip,from_date,2019-2020,from_date[2019-2020],y
+c5up-ki6j,Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Contract),skip,fiscal_year,2017-2018,contract_end[2016-2026]; contract_start[2014-2018]; fiscal_year[2017-2018],y
+7n9x-tbtd,NYC Climate Budgeting Report: Resiliency Exposure Forecast - Coastal Flooding,split,publication_date,2025-2026,publication_date[2025-2026],y
+395v-hkhg,Inquiries Received,split,fiscal_year,2018-2019,fiscal_year[2018-2019],y
+mdgu-ar69,Bronx Borough President Capital Funding,split,fiscal_year,2023-2024,fiscal_year[2023-2024],y
+ke6f-vhnd,Independent Budget Office: NYC COVID 19 Spending by Date - Citywide and by Agency,split,date,2020-2021,date[2020-2021]; department_of_environmental[2130-2130]; department_of_information[2085-2085],y
+7434-7ua6,DOHMH Covid-19 Milestone Data: Percent of NYC residents tested who tested positive,split,date,2020-2021,date[2020-2021]; uptdate[2021-2021],y
+azp6-hepu,Licensing Center Customer Information,split,month,2015-2016,month[2015-2016],y
+qdq3-9eqn,Hyperlocal Temperature Monitoring,skip,year,2018-2019,day[2018-2019]; year[2018-2019],y
+m5vz-tzqv,Parking Violations Issued - Fiscal Year 2025,skip,issue_date,2024-2025,issue_date[2024-2025],y
+4nft-bihw,Assessment Actions,split,tax_year,2024-2025,tax_year[2024-2025],y
+xwtc-hedq,DOHMH Covid-19 Milestone Data: New Cases of Covid-19 (7 Day Average),split,date,2020-2021,date[2020-2021]; etldate[2021-2021],y
+tmha-56pf,Office of Mediation and Conflict Resolution Cases,split,year,2018-2019,year[2018-2019],y
+kpv8-upnp,Historical Medallion Drivers – Passenger Assistance Trained 2019-2020,split,last_date_updated,2019-2020,last_date_updated[2019-2020],y
+96te-xmyw,Three-Quarter Housing Report – Violations,split,report_date,2017-2018,report_date[2017-2018],y
+pnpe-ubtz,Citywide Hard to Reach Know Your Rights Engagements,split,startdate,2019-2020,startdate[2019-2020],y
+g6pj-fsah,2022 High Volume FHV Trip Records,split,request_datetime,2021-2022,request_datetime[2021-2022]; on_scene_datetime[2021-2022]; pickup_datetime[2022-2022]; dropoff_datetime[2022-2022],y
+6r4h-c2y6,Sustainability Indicators (2012),skip,most_recent_data_year,2010-2011,most_recent_data_year[2010-2011],y
+vmfm-wic2,Early Learn Project Sites,skip,design_start,2020-2021,design_start[2020-2021]; constr_start[2022-2023]; actual_est_compl[2023-2024],y
+j7in-ctnu,DOF: Refund List - Real property Tax,split,check_date,2018-2019,check_date[2018-2019],y
+sj3k-gzyx,DOHMH Covid-19 Milestone Data: Daily Number of People Admitted to NYC hospitals for Covid-19 like Illness,split,date,2020-2021,date[2020-2021]; etldate[2021-2021],y
+am94-epxh,2018 For Hire Vehicles Trip Data,skip,dropoff_datetime,2018-2019,pickup_datetime[2018-2018]; dropoff_datetime[2018-2019],y
+2upf-qytp,2019 Yellow Taxi Trip Data,skip,tpep_pickup_datetime,2018-2019,tpep_pickup_datetime[2018-2019]; tpep_dropoff_datetime[2018-2019],y
+8nfn-ifaj,2022 Green Taxi Trip Data,skip,lpep_pickup_datetime,2021-2022,lpep_pickup_datetime[2021-2022]; lpep_dropoff_datetime[2021-2022],y
+752y-qk8b,"NYC Parks Daily Tasks Cleaning Routes, Fiscal Year 2016",skip,route_updated_date,2015-2016,route_updated_date[2015-2016],y
+9dab-x6kn,Emergency Lock-In Data,skip,lockin_end_dttm,2023-2024,lockin_start_dttm[2023-2023]; lockin_end_dttm[2023-2024],y
+4b4i-vvec,2023 Yellow Taxi Trip Data,skip,tpep_pickup_datetime,2022-2023,tpep_pickup_datetime[2022-2023]; tpep_dropoff_datetime[2022-2023],y
+n2zq-pubd,NYPD Calls for Service (Year to Date),skip,incident_date,2024-2025,create_date[2025-2025]; incident_date[2024-2025]; add_ts[2025-2025]; disp_ts[2025-2025]; arrivd_ts[2025-2025]; closng_ts[2025-2025],y
+im9z-53hg,Housing Maintenance Code Violations NYCHA properties,split,insp_dt,2025-2026,insp_dt[2025-2026]; viol_appr_dt[2025-2026],y
+v988-8fd7,NYC Climate Budgeting Report: Forecasted Avoided Health Events,skip,published_date,2024-2025,published_date[2024-2025],y
+uiay-nctu,Open Streets Locations,skip,apprenddat,2024-2025,apprstartd[2024-2024]; apprenddat[2024-2025],y
+5kqf-fg3n,NYC Free Tax Prep Sites,skip,opendateiso,2018-2019,opendateiso[2018-2019]; closedateiso[2019-2019],y
+ubuy-v2nw,Discretionary Contract Awards 2017-2018,split,fiscal_year,2017-2018,fiscal_year[2017-2018],y
+gyrw-gvqc,Social Distancing: Parks Crowds Data,skip,encounter_timestamp,2020-2021,encounter_timestamp[2020-2021],y
+k9kq-67vm,DYCD Participant Demographics,split,data_os_of_date,2019-2020,data_os_of_date[2019-2020],y
+mdmw-kuen,TreesCount2015Blockfaces,split,surv_date,2015-2016,surv_date[2015-2016],y
+qgc5-ecnb,DOHMH MenuStat (Historical),split,year,2017-2018,year[2017-2018],y
+jup5-7fik,DVS Assistance Requests,split,intake_date,2018-2019,intake_date[2018-2019]; post_engagement_date[2018-2019],y
+peyi-gg4n,2023 Green Taxi Trip Data,skip,lpep_pickup_datetime,2022-2023,lpep_pickup_datetime[2022-2023]; lpep_dropoff_datetime[2022-2023],y
+ghpb-fpea,2013 Green Taxi Trip Data,skip,lpep_dropoff_datetime,2013-2014,lpep_pickup_datetime[2013-2013]; lpep_dropoff_datetime[2013-2014],y
+u253-aew4,2023 High Volume FHV Trip Data,skip,request_datetime,2022-2023,request_datetime[2022-2023]; on_scene_datetime[2022-2023]; pickup_datetime[2023-2023]; dropoff_datetime[2023-2023],y
+p2q7-at72,Environmentally Preferable Purchasing FY15 - Construction,skip,registration_date,2014-2015,registration_date[2014-2015],y
