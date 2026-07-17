@@ -226,6 +226,8 @@ nyc-open-data/version_groups.json
 nyc-open-data/version_review.txt
 nyc-open-data/lineage.json
 nyc-open-data/lineage.txt
+nyc-open-data/column_matched_lineage.json
+nyc-open-data/column_matches.txt
 
 # Review scratch: per-annotator shards and the working plans behind the
 # finalized artifacts

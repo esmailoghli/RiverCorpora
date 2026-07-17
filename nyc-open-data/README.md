@@ -98,6 +98,19 @@ python lineage.py --clusters clusters.reviewed.json --dir data --overrides perio
 
 The re-run of `lineage.py` produces the final `lineage.json`.
 
+### 10. Match columns across editions
+
+```
+python match_columns.py --lineage lineage.json --dir data
+```
+
+Writes `column_matched_lineage.json`: `lineage.json` again, with every column of
+every edition assigned a `column_id` UUID that is stable across the series, plus
+a per-edition `schema_change` (added / removed / renamed / retyped). Columns are
+matched only on an exactly equal Socrata `fieldName` or normalized header; a
+column that matches nothing keeps its own UUID and is reported as an addition or
+a removal rather than being forced onto a neighbour.
+
 ## Files
 
 | Script | Writes |
@@ -112,6 +125,7 @@ The re-run of `lineage.py` produces the final `lineage.json`.
 | `review_clusters.py` | `cluster_plan.csv`, `clusters.reviewed.json` |
 | `lineage.py` | `lineage.json`, `lineage.txt` |
 | `review_lineage.py` | `lineage_plan.csv`, `period_overrides.json` |
+| `match_columns.py` | `column_matched_lineage.json`, `column_matches.txt` |
 
 Every script takes `--help`, and its module docstring documents the options and the reasoning behind the step.
 
