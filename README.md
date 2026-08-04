@@ -16,7 +16,7 @@ The two lakes are deliberately complementary:
 - **[nyc-open-data/](nyc-open-data/)** — scrapes every table dataset on [data.cityofnewyork.us](https://data.cityofnewyork.us) and reconstructs the temporal structure the portal never records. Here each edition is an independent dataset with no link to its predecessors, so versions and lineage are recovered from several complementary signals and then reviewed by human annotators. See [nyc-open-data/README.md](nyc-open-data/README.md).
 
 ## Data
-Will be added after the revision process to remain anonymous here: https://doi.org/10.20383/103.01750
+# Will be added after the revision process to remain anonymous here: https://doi.org/10.20383/103.01750
 
 The generated lakes are published on Zenodo:
 
