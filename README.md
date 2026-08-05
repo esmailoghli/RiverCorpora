@@ -17,6 +17,7 @@ The two lakes are deliberately complementary:
 
 ## Data
 ## Will be added after the revision process to remain anonymous here: https://doi.org/10.20383/103.01750
+### Creating an anonymous link to the data with such size was not possible.
 
 The generated lakes are published on Zenodo:
 
