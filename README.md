@@ -29,7 +29,7 @@ The repository holds the pipelines, not the data. Running either pipeline reprod
 
 Design decisions, corpus statistics, and the phenomena each pipeline has to handle are described in:
 
-**[Technical report — placeholder]()** *(link to be added)*
+**[Technical report](RiverBench___TECHINCAL_REPORT.pdf)**
 
 ## Repository layout
 
