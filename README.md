@@ -16,12 +16,10 @@ The two lakes are deliberately complementary:
 - **[nyc-open-data/](nyc-open-data/)** — scrapes every table dataset on [data.cityofnewyork.us](https://data.cityofnewyork.us) and reconstructs the temporal structure the portal never records. Here each edition is an independent dataset with no link to its predecessors, so versions and lineage are recovered from several complementary signals and then reviewed by human annotators. See [nyc-open-data/README.md](nyc-open-data/README.md).
 
 ## Data
-## Will be added after the revision process to remain anonymous here: https://doi.org/10.20383/103.01750
-### Creating an anonymous link to the data with such size was not possible.
 
-The generated lakes are published on Zenodo:
+The generated lakes are published on The Federated Research Data Repository (FRDR):
 
-**[Zenodo record — placeholder]()** *(link to be added)*
+**[Benchamrk Data Lakes](https://www.frdr-dfdr.ca/repo/review?invite=938aaefbbe4e42bab3a656ddcba87408b07d971268294b0a89d427e0c9651889)** 
 
 The repository holds the pipelines, not the data. Running either pipeline reproduces its lake from the public source.
 
