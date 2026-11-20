@@ -1,4 +1,4 @@
-# RiverBench
+# RiverCorpora
 
 Two **temporal data lakes** — collections of tables tracked across their versions — together with the full pipelines that build them. Both lakes label every table's *versions* and their *lineage* (which edition precedes which), which is what makes them usable for temporally-valid table search and for studying schema and content drift.
 
